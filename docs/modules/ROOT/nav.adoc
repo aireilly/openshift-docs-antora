@@ -1,4 +1,3 @@
-// suppress inspection "AsciiDocLinkResolve" for whole file
 .Introduction
 * xref:welcome/index.adoc[Welcome]
 * xref:welcome/learn_more_about_openshift.adoc[Learn more about OpenShift Container Platform]
