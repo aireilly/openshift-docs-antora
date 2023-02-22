@@ -1,18 +1,23 @@
-.About
+// suppress inspection "AsciiDocLinkResolve" for whole file
+.Introduction
 * xref:welcome/index.adoc[Welcome]
 * xref:welcome/learn_more_about_openshift.adoc[Learn more about OpenShift Container Platform]
 * xref:welcome/oke_about.adoc[About OpenShift Kubernetes Engine]
 * xref:welcome/legal-notice.adoc[Legal notice]
+
 .What's new?
 * xref:whats_new/new-features.adoc[New features and enhancements]
 * xref:whats_new/deprecated-features.adoc[Deprecated features]
+
 .Release notes
 * xref:release_notes/ocp-4-10-release-notes.adoc[OpenShift Container Platform 4.10 release notes]
+
 .Getting started
 * xref:getting_started/kubernetes-overview.adoc[Kubernetes overview]
 * xref:getting_started/openshift-overview.adoc[OpenShift Container Platform overview]
 * xref:getting_started/openshift-web-console.adoc[Web console walkthrough]
 * xref:getting_started/openshift-cli.adoc[Command-line walkthrough]
+
 .Architecture
 * xref:architecture/index.adoc[Architecture overview]
 * xref:architecture/architecture.adoc[Product architecture]
@@ -24,6 +29,7 @@
 * xref:architecture/architecture-rhcos.adoc[Fedora CoreOS]
 * xref:architecture/architecture-rhcos.adoc[Red Hat Enterprise Linux CoreOS]
 * xref:architecture/admission-plug-ins.adoc[Admission plugins]
+
 .Installing
 * xref:installing/index.adoc[Installation overview]
 * xref:installing/installing-preparing.adoc[Selecting an installation method and preparing a cluster]
@@ -185,6 +191,7 @@
 * xref:installing/validating-an-installation.adoc[Validating an installation]
 * xref:installing/installing-troubleshooting.adoc[Troubleshooting installation issues]
 * xref:installing/installing-fips.adoc[Support for FIPS cryptography]
+
 .Post-installation configuration
 * xref:post_installation_configuration/index.adoc[Post-installation configuration overview]
 * xref:post_installation_configuration/configuring-private-cluster.adoc[Configuring a private cluster]
@@ -198,6 +205,7 @@
 * xref:post_installation_configuration/configuring-alert-notifications.adoc[Configuring alert notifications]
 * xref:post_installation_configuration/connected-to-disconnected.adoc[Converting a connected cluster to a disconnected cluster]
 * xref:post_installation_configuration/ibmz-post-install.adoc[Configuring additional devices in an IBM Z or LinuxONE environment]
+
 .Updating clusters
 * xref:updating/index.adoc[Updating clusters overview]
 * xref:updating/understanding-openshift-updates.adoc[Understanding OpenShift updates]
@@ -213,6 +221,7 @@
 ** xref:updating/updating-restricted-network-cluster/restricted-network-update-osus.adoc[Updating disconnected environments using OSUS]
 ** xref:updating/updating-restricted-network-cluster/restricted-network-update.adoc[Updating disconnected environments without OSUS]
 * xref:updating/updating-hardware-on-nodes-running-on-vsphere.adoc[Updating hardware on nodes running on vSphere]
+
 .Support
 * xref:support/index.adoc[Support overview]
 * xref:support/managing-cluster-resources.adoc[Managing your cluster resources]
@@ -241,6 +250,7 @@
 ** xref:support/troubleshooting/troubleshooting-windows-container-workload-issues.adoc[Troubleshooting Windows container workload issues]
 ** xref:support/troubleshooting/investigating-monitoring-issues.adoc[Investigating monitoring issues]
 ** xref:support/troubleshooting/diagnosing-oc-issues.adoc[Diagnosing OpenShift CLI (oc) issues]
+
 .Web console
 * xref:web_console/web-console-overview.adoc[Web console overview]
 * xref:web_console/web-console.adoc[Accessing the web console]
@@ -252,6 +262,7 @@
 * xref:web_console/odc-about-web-terminal.adoc[Web terminal]
 * xref:web_console/disabling-web-console.adoc[Disabling the web console]
 * xref:web_console/creating-quick-start-tutorials.adoc[Creating quick start tutorials]
+
 .CLI tools
 * xref:cli_reference/index.adoc[CLI tools overview]
 * OpenShift CLI (oc)
@@ -279,6 +290,7 @@
 * Operator SDK
 ** xref:cli_reference/osdk/cli-osdk-install.adoc[Installing the Operator SDK CLI]
 ** xref:cli_reference/osdk/cli-osdk-ref.adoc[Operator SDK CLI reference]
+
 .Security and compliance
 * xref:security/index.adoc[Security and compliance overview]
 * Container security
@@ -356,6 +368,7 @@
 ** xref:security/network_bound_disk_encryption/nbde-tang-server-installation-considerations.adoc[Tang server installation considerations]
 ** xref:security/network_bound_disk_encryption/nbde-managing-encryption-keys.adoc[Tang server encryption key management]
 ** xref:security/network_bound_disk_encryption/nbde-disaster-recovery-considerations.adoc[Disaster recovery considerations]
+
 .Authentication and authorization
 * xref:authentication/index.adoc[Authentication and authorization overview]
 * xref:authentication/understanding-authentication.adoc[Understanding authentication]
@@ -390,6 +403,7 @@
 ** xref:authentication/managing_cloud_provider_credentials/cco-mode-manual.adoc[Using manual mode]
 ** xref:authentication/managing_cloud_provider_credentials/cco-mode-sts.adoc[Using manual mode with AWS Security Token Service]
 ** xref:authentication/managing_cloud_provider_credentials/cco-mode-gcp-workload-identity.adoc[Using manual mode with GCP Workload Identity]
+
 .Networking
 * xref:networking/understanding-networking.adoc[Understanding networking]
 * xref:networking/accessing-hosts.adoc[Accessing hosts]
@@ -514,6 +528,7 @@
 ** xref:networking/network_observability/observing-network-traffic.adoc[Observing the network traffic]
 ** xref:networking/network_observability/flowcollector-api.adoc[API reference]
 ** xref:networking/network_observability/troubleshooting-network-observability.adoc[Troubleshooting Network Observability]
+
 .Storage
 * xref:storage/index.adoc[Storage overview]
 * xref:storage/understanding-ephemeral-storage.adoc[Understanding ephemeral storage]
@@ -553,6 +568,7 @@
 ** xref:storage/container_storage_interface/persistent-storage-csi-vsphere.adoc[VMware vSphere CSI Driver Operator]
 * xref:storage/expanding-persistent-volumes.adoc[Expanding persistent volumes]
 * xref:storage/dynamic-provisioning.adoc[Dynamic provisioning]
+
 .Registry
 * xref:registry/index.adoc[Registry overview]
 * xref:registry/configuring-registry-operator.adoc[Image Registry Operator in OpenShift Container Platform]
@@ -567,6 +583,7 @@
 ** xref:registry/configuring_registry_storage/configuring-registry-storage-vsphere.adoc[Configuring the registry for vSphere]
 * xref:registry/accessing-the-registry.adoc[Accessing the registry]
 * xref:registry/securing-exposing-registry.adoc[Exposing the registry]
+
 .Operators
 * xref:operators/index.adoc[Operators overview]
 * Understanding Operators
@@ -574,19 +591,19 @@
 ** xref:operators/understanding/olm-packaging-format.adoc[Packaging format]
 ** xref:operators/understanding/olm-common-terms.adoc[Common terms]
 ** Operator Lifecycle Manager (OLM)
-** xref:operators/understanding/olm/olm-understanding-olm.adoc[Concepts and resources]
-** xref:operators/understanding/olm/olm-arch.adoc[Architecture]
-** xref:operators/understanding/olm/olm-workflow.adoc[Workflow]
-** xref:operators/understanding/olm/olm-understanding-dependency-resolution.adoc[Dependency resolution]
-** xref:operators/understanding/olm/olm-understanding-operatorgroups.adoc[Operator groups]
-** xref:operators/understanding/olm/olm-operatorconditions.adoc[Operator conditions]
-** xref:operators/understanding/olm/olm-understanding-metrics.adoc[Metrics]
-** xref:operators/understanding/olm/olm-webhooks.adoc[Webhooks]
+*** xref:operators/understanding/olm/olm-understanding-olm.adoc[Concepts and resources]
+*** xref:operators/understanding/olm/olm-arch.adoc[Architecture]
+*** xref:operators/understanding/olm/olm-workflow.adoc[Workflow]
+*** xref:operators/understanding/olm/olm-understanding-dependency-resolution.adoc[Dependency resolution]
+*** xref:operators/understanding/olm/olm-understanding-operatorgroups.adoc[Operator groups]
+*** xref:operators/understanding/olm/olm-operatorconditions.adoc[Operator conditions]
+*** xref:operators/understanding/olm/olm-understanding-metrics.adoc[Metrics]
+*** xref:operators/understanding/olm/olm-webhooks.adoc[Webhooks]
 ** xref:operators/understanding/olm-understanding-operatorhub.adoc[OperatorHub]
 ** xref:operators/understanding/olm-rh-catalogs.adoc[Red Hat-provided Operator catalogs]
 ** CRDs
-** xref:operators/understanding/crds/crd-extending-api-with-crds.adoc[Extending the Kubernetes API with CRDs]
-** xref:operators/understanding/crds/crd-managing-resources-from-crds.adoc[Managing resources from CRDs]
+*** xref:operators/understanding/crds/crd-extending-api-with-crds.adoc[Extending the Kubernetes API with CRDs]
+*** xref:operators/understanding/crds/crd-managing-resources-from-crds.adoc[Managing resources from CRDs]
 * User tasks
 ** xref:operators/user/olm-creating-apps-from-installed-operators.adoc[Creating applications from installed Operators]
 ** xref:operators/user/olm-installing-operators-in-namespace.adoc[Installing Operators in your namespace]
@@ -606,23 +623,23 @@
 ** xref:operators/operator_sdk/osdk-installing-cli.adoc[Installing the Operator SDK CLI]
 ** xref:operators/operator_sdk/osdk-upgrading-projects.adoc[Upgrading projects for newer Operator SDK versions]
 ** Go-based Operators
-** xref:operators/operator_sdk/golang/osdk-golang-quickstart.adoc[Getting started]
-** xref:operators/operator_sdk/golang/osdk-golang-tutorial.adoc[Tutorial]
-** xref:operators/operator_sdk/golang/osdk-golang-project-layout.adoc[Project layout]
+*** xref:operators/operator_sdk/golang/osdk-golang-quickstart.adoc[Getting started]
+*** xref:operators/operator_sdk/golang/osdk-golang-tutorial.adoc[Tutorial]
+*** xref:operators/operator_sdk/golang/osdk-golang-project-layout.adoc[Project layout]
 ** Ansible-based Operators
-** xref:operators/operator_sdk/ansible/osdk-ansible-quickstart.adoc[Getting started]
-** xref:operators/operator_sdk/ansible/osdk-ansible-tutorial.adoc[Tutorial]
-** xref:operators/operator_sdk/ansible/osdk-ansible-project-layout.adoc[Project layout]
-** xref:operators/operator_sdk/ansible/osdk-ansible-support.adoc[Ansible support]
-** xref:operators/operator_sdk/ansible/osdk-ansible-k8s-collection.adoc[Kubernetes Collection for Ansible]
-** xref:operators/operator_sdk/ansible/osdk-ansible-inside-operator.adoc[Using Ansible inside an Operator]
-** xref:operators/operator_sdk/ansible/osdk-ansible-cr-status.adoc[Custom resource status management]
+*** xref:operators/operator_sdk/ansible/osdk-ansible-quickstart.adoc[Getting started]
+*** xref:operators/operator_sdk/ansible/osdk-ansible-tutorial.adoc[Tutorial]
+*** xref:operators/operator_sdk/ansible/osdk-ansible-project-layout.adoc[Project layout]
+*** xref:operators/operator_sdk/ansible/osdk-ansible-support.adoc[Ansible support]
+*** xref:operators/operator_sdk/ansible/osdk-ansible-k8s-collection.adoc[Kubernetes Collection for Ansible]
+*** xref:operators/operator_sdk/ansible/osdk-ansible-inside-operator.adoc[Using Ansible inside an Operator]
+*** xref:operators/operator_sdk/ansible/osdk-ansible-cr-status.adoc[Custom resource status management]
 ** Helm-based Operators
-** xref:operators/operator_sdk/helm/osdk-helm-quickstart.adoc[Getting started]
-** xref:operators/operator_sdk/helm/osdk-helm-tutorial.adoc[Tutorial]
-** xref:operators/operator_sdk/helm/osdk-helm-project-layout.adoc[Project layout]
-** xref:operators/operator_sdk/helm/osdk-helm-support.adoc[Helm support]
-** xref:operators/operator_sdk/helm/osdk-hybrid-helm.adoc[Hybrid Helm Operator]
+*** xref:operators/operator_sdk/helm/osdk-helm-quickstart.adoc[Getting started]
+*** xref:operators/operator_sdk/helm/osdk-helm-tutorial.adoc[Tutorial]
+*** xref:operators/operator_sdk/helm/osdk-helm-project-layout.adoc[Project layout]
+*** xref:operators/operator_sdk/helm/osdk-helm-support.adoc[Helm support]
+*** xref:operators/operator_sdk/helm/osdk-hybrid-helm.adoc[Hybrid Helm Operator]
 ** xref:operators/operator_sdk/osdk-generating-csvs.adoc[Defining cluster service versions (CSVs)]
 ** xref:operators/operator_sdk/osdk-working-bundle-images.adoc[Working with bundle images]
 ** xref:operators/operator_sdk/osdk-scorecard.adoc[Validating Operators using the scorecard]
@@ -634,6 +651,7 @@
 ** xref:operators/operator_sdk/osdk-cli-ref.adoc[Operator SDK CLI reference]
 ** xref:operators/operator_sdk/osdk-migrating-to-v0-1-0.adoc[Migrating to Operator SDK v0.1.0]
 * xref:operators/operator-reference.adoc[Cluster Operators reference]
+
 .CI/CD
 * xref:cicd/index.adoc[CI/CD overview]
 * Builds
@@ -687,6 +705,7 @@
 ** xref:cicd/gitops/configuring-argo-cd-rbac.adoc[Configuring Argo CD RBAC]
 ** xref:cicd/gitops/run-gitops-control-plane-workload-on-infra-nodes.adoc[Running Control Plane Workloads on Infra nodes]
 ** xref:cicd/gitops/about-sizing-requirements-gitops.adoc[Sizing requirements for GitOps Operator]
+
 .Images
 * xref:openshift_images/index.adoc[Overview of images]
 * xref:openshift_images/configuring-samples-operator.adoc[Configuring the Cluster Samples Operator]
@@ -709,6 +728,7 @@
 ** xref:openshift_images/using_images/images-other-jenkins-agent.adoc[Jenkins agent]
 ** xref:openshift_images/using_images/using-s21-images.adoc[Source-to-image]
 ** xref:openshift_images/using_images/customizing-s2i-images.adoc[Customizing source-to-image images]
+
 .Building applications
 * xref:applications/index.adoc[Building applications overview]
 * Projects
@@ -752,6 +772,7 @@
 * xref:applications/idling-applications.adoc[Idling applications]
 * xref:applications/odc-deleting-applications.adoc[Deleting applications]
 * xref:applications/red-hat-marketplace.adoc[Using the Red Hat Marketplace]
+
 .Machine management
 * xref:machine_management/index.adoc[Overview of machine management]
 * Creating machine sets
@@ -778,6 +799,7 @@
 ** xref:machine_management/user_infra/adding-vsphere-compute-user-infra.adoc[Adding compute machines to vSphere]
 ** xref:machine_management/user_infra/adding-bare-metal-compute-user-infra.adoc[Adding compute machines to bare metal]
 * xref:machine_management/deploying-machine-health-checks.adoc[Deploying machine health checks]
+
 .Nodes
 * xref:nodes/index.adoc[Overview of nodes]
 * Working with pods
@@ -804,10 +826,10 @@
 ** xref:nodes/scheduling/nodes-custom-scheduler.adoc[Running a custom scheduler]
 ** xref:nodes/scheduling/nodes-descheduler.adoc[Evicting pods using the descheduler]
 ** Secondary scheduler
-** xref:nodes/scheduling/secondary_scheduler/index.adoc[Secondary scheduler overview]
-** xref:nodes/scheduling/secondary_scheduler/nodes-secondary-scheduler-release-notes.adoc[Secondary Scheduler Operator release notes]
-** xref:nodes/scheduling/secondary_scheduler/nodes-secondary-scheduler-configuring.adoc[Scheduling pods using a secondary scheduler]
-** xref:nodes/scheduling/secondary_scheduler/nodes-secondary-scheduler-uninstalling.adoc[Uninstalling the Secondary Scheduler Operator]
+*** xref:nodes/scheduling/secondary_scheduler/index.adoc[Secondary scheduler overview]
+*** xref:nodes/scheduling/secondary_scheduler/nodes-secondary-scheduler-release-notes.adoc[Secondary Scheduler Operator release notes]
+*** xref:nodes/scheduling/secondary_scheduler/nodes-secondary-scheduler-configuring.adoc[Scheduling pods using a secondary scheduler]
+*** xref:nodes/scheduling/secondary_scheduler/nodes-secondary-scheduler-uninstalling.adoc[Uninstalling the Secondary Scheduler Operator]
 * Using Jobs and DaemonSets
 ** xref:nodes/jobs/nodes-pods-daemonsets.adoc[Running background tasks on nodes automatically with daemonsets]
 ** xref:nodes/jobs/nodes-nodes-jobs.adoc[Running tasks in pods using jobs]
@@ -847,6 +869,7 @@
 ** xref:nodes/clusters/nodes-cluster-enabling-features.adoc[Enabling features using FeatureGates]
 * Remote worker nodes on the network edge
 ** xref:nodes/edge/nodes-edge-remote-workers.adoc[Using remote worker node at the network edge]
+
 .Windows Container Support for OpenShift
 * xref:windows_containers/index.adoc[Red Hat OpenShift support for Windows Containers overview]
 * xref:windows_containers/windows-containers-release-notes-5-x.adoc[Red Hat OpenShift support for Windows Containers release notes]
@@ -861,6 +884,7 @@
 * xref:windows_containers/byoh-windows-instance.adoc[Using Bring-Your-Own-Host Windows instances as nodes]
 * xref:windows_containers/removing-windows-nodes.adoc[Removing Windows nodes]
 * xref:windows_containers/disabling-windows-container-workloads.adoc[Disabling Windows container workloads]
+
 .Sandboxed Containers Support for OpenShift
 * xref:sandboxed_containers/sandboxed-containers-release-notes.adoc[OpenShift sandboxed containers release notes]
 * xref:sandboxed_containers/understanding-sandboxed-containers.adoc[Understanding OpenShift sandboxed containers]
@@ -869,6 +893,7 @@
 * xref:sandboxed_containers/uninstalling-sandboxed-containers.adoc[Uninstalling OpenShift sandboxed containers]
 * xref:sandboxed_containers/upgrading-sandboxed-containers.adoc[Upgrading OpenShift sandboxed containers]
 * xref:sandboxed_containers/troubleshooting-sandboxed-containers.adoc[Collecting OpenShift sandboxed containers data]
+
 .Logging
 * xref:logging/cluster-logging-release-notes.adoc[Release notes]
 * xref:logging/cluster-logging.adoc[About Logging]
@@ -900,6 +925,7 @@
 ** xref:logging/troubleshooting/cluster-logging-troubleshooting-for-critical-alerts.adoc[Troubleshooting for Critical Alerts]
 * xref:logging/cluster-logging-uninstall.adoc[Uninstalling Logging]
 * xref:logging/cluster-logging-exported-fields.adoc[Exported fields]
+
 .Monitoring
 * xref:monitoring/monitoring-overview.adoc[Monitoring overview]
 * xref:monitoring/configuring-the-monitoring-stack.adoc[Configuring the monitoring stack]
@@ -913,6 +939,7 @@
 * xref:monitoring/accessing-third-party-monitoring-uis-and-apis.adoc[Accessing third-party monitoring UIs and APIs]
 * xref:monitoring/troubleshooting-monitoring-issues.adoc[Troubleshooting monitoring issues]
 * xref:monitoring/configmap-reference-for-cluster-monitoring-operator.adoc[ConfigMap reference for Cluster Monitoring Operator]
+
 .Scalability and performance
 * xref:scalability_and_performance/recommended-host-practices.adoc[Recommended host practices]
 * xref:scalability_and_performance/ibm-z-recommended-host-practices.adoc[Recommended host practices for IBM Z & LinuxONE environments]
@@ -945,11 +972,13 @@
 ** xref:scalability_and_performance/ztp_far_edge/ztp-advanced-policy-config.adoc[Advanced managed cluster configuration with PolicyGenTemplate resources]
 ** xref:scalability_and_performance/ztp_far_edge/ztp-talm-updating-managed-policies.adoc[Updating managed clusters with the Topology Aware Lifecycle Manager]
 ** xref:scalability_and_performance/ztp_far_edge/ztp-updating-gitops.adoc[Updating GitOps ZTP]
+
 .Specialized hardware and driver enablement
 * xref:hardware_enablement/about-hardware-enablement.adoc[About specialized hardware and driver enablement]
 * xref:hardware_enablement/psap-driver-toolkit.adoc[Driver Toolkit]
 * xref:hardware_enablement/psap-special-resource-operator.adoc[Special Resource Operator]
 * xref:hardware_enablement/psap-node-feature-discovery-operator.adoc[Node Feature Discovery Operator]
+
 .Backup and restore
 * xref:backup_and_restore/index.adoc[Overview of backup and restore operations]
 * xref:backup_and_restore/graceful-cluster-shutdown.adoc[Shutting down a cluster gracefully]
@@ -958,16 +987,16 @@
 ** xref:backup_and_restore/application_backup_and_restore/oadp-release-notes.adoc[OADP release notes]
 ** xref:backup_and_restore/application_backup_and_restore/oadp-features-plugins.adoc[OADP features and plugins]
 ** Installing and configuring OADP
-** xref:backup_and_restore/application_backup_and_restore/installing/about-installing-oadp.adoc[About installing OADP]
-** xref:backup_and_restore/application_backup_and_restore/installing/installing-oadp-aws.adoc[Installing and configuring OADP with AWS]
-** xref:backup_and_restore/application_backup_and_restore/installing/installing-oadp-azure.adoc[Installing and configuring OADP with Azure]
-** xref:backup_and_restore/application_backup_and_restore/installing/installing-oadp-gcp.adoc[Installing and configuring OADP with GCP]
-** xref:backup_and_restore/application_backup_and_restore/installing/installing-oadp-mcg.adoc[Installing and configuring OADP with MCG]
-** xref:backup_and_restore/application_backup_and_restore/installing/installing-oadp-ocs.adoc[Installing and configuring OADP with ODF]
-** xref:backup_and_restore/application_backup_and_restore/installing/uninstalling-oadp.adoc[Uninstalling OADP]
+*** xref:backup_and_restore/application_backup_and_restore/installing/about-installing-oadp.adoc[About installing OADP]
+*** xref:backup_and_restore/application_backup_and_restore/installing/installing-oadp-aws.adoc[Installing and configuring OADP with AWS]
+*** xref:backup_and_restore/application_backup_and_restore/installing/installing-oadp-azure.adoc[Installing and configuring OADP with Azure]
+*** xref:backup_and_restore/application_backup_and_restore/installing/installing-oadp-gcp.adoc[Installing and configuring OADP with GCP]
+*** xref:backup_and_restore/application_backup_and_restore/installing/installing-oadp-mcg.adoc[Installing and configuring OADP with MCG]
+*** xref:backup_and_restore/application_backup_and_restore/installing/installing-oadp-ocs.adoc[Installing and configuring OADP with ODF]
+*** xref:backup_and_restore/application_backup_and_restore/installing/uninstalling-oadp.adoc[Uninstalling OADP]
 ** Backing up and restoring
-** xref:backup_and_restore/application_backup_and_restore/backing_up_and_restoring/backing-up-applications.adoc[Backing up applications]
-** xref:backup_and_restore/application_backup_and_restore/backing_up_and_restoring/restoring-applications.adoc[Restoring applications]
+*** xref:backup_and_restore/application_backup_and_restore/backing_up_and_restoring/backing-up-applications.adoc[Backing up applications]
+*** xref:backup_and_restore/application_backup_and_restore/backing_up_and_restoring/restoring-applications.adoc[Restoring applications]
 ** xref:backup_and_restore/application_backup_and_restore/troubleshooting.adoc[Troubleshooting]
 ** xref:backup_and_restore/application_backup_and_restore/oadp-api.adoc[OADP API]
 ** xref:backup_and_restore/application_backup_and_restore/oadp-advanced-topics.adoc[Advanced OADP features and functionalities]
@@ -975,9 +1004,10 @@
 ** xref:backup_and_restore/control_plane_backup_and_restore/backing-up-etcd.adoc[Backing up etcd data]
 ** xref:backup_and_restore/control_plane_backup_and_restore/replacing-unhealthy-etcd-member.adoc[Replacing an unhealthy etcd member]
 ** Disaster recovery
-** xref:backup_and_restore/control_plane_backup_and_restore/disaster_recovery/about-disaster-recovery.adoc[About disaster recovery]
-** xref:backup_and_restore/control_plane_backup_and_restore/disaster_recovery/scenario-2-restoring-cluster-state.adoc[Restoring to a previous cluster state]
-** xref:backup_and_restore/control_plane_backup_and_restore/disaster_recovery/scenario-3-expired-certs.adoc[Recovering from expired control plane certificates]
+*** xref:backup_and_restore/control_plane_backup_and_restore/disaster_recovery/about-disaster-recovery.adoc[About disaster recovery]
+*** xref:backup_and_restore/control_plane_backup_and_restore/disaster_recovery/scenario-2-restoring-cluster-state.adoc[Restoring to a previous cluster state]
+*** xref:backup_and_restore/control_plane_backup_and_restore/disaster_recovery/scenario-3-expired-certs.adoc[Recovering from expired control plane certificates]
+
 .Migrating from version 3 to 4
 * xref:migrating_from_ocp_3_to_4/index.adoc[Migrating from version 3 to 4 overview]
 * xref:migrating_from_ocp_3_to_4/about-migrating-from-3-to-4.adoc[About migrating from OpenShift Container Platform 3 to 4]
@@ -993,6 +1023,7 @@
 * xref:migrating_from_ocp_3_to_4/migrating-applications-3-4.adoc[Migrating your applications]
 * xref:migrating_from_ocp_3_to_4/advanced-migration-options-3-4.adoc[Advanced migration options]
 * xref:migrating_from_ocp_3_to_4/troubleshooting-3-4.adoc[Troubleshooting]
+
 .Migration Toolkit for Containers
 * xref:migration_toolkit_for_containers/about-mtc.adoc[About MTC]
 * xref:migration_toolkit_for_containers/mtc-release-notes.adoc[MTC release notes]
@@ -1004,6 +1035,7 @@
 * xref:migration_toolkit_for_containers/migrating-applications-with-mtc.adoc[Migrating your applications]
 * xref:migration_toolkit_for_containers/advanced-migration-options-mtc.adoc[Advanced migration options]
 * xref:migration_toolkit_for_containers/troubleshooting-mtc.adoc[Troubleshooting]
+
 .API reference
 * xref:rest_api/understanding-api-support-tiers.adoc[Understanding API tiers]
 * xref:rest_api/understanding-compatibility-guidelines.adoc[API compatibility guidelines]
@@ -1267,6 +1299,7 @@
 ** xref:rest_api/workloads_apis/persistentvolume-v1.adoc[PersistentVolume [v1]]
 ** xref:rest_api/workloads_apis/replicaset-apps-v1.adoc[ReplicaSet [apps/v1]]
 ** xref:rest_api/workloads_apis/statefulset-apps-v1.adoc[StatefulSet [apps/v1]]
+
 .Service Mesh
 * Service Mesh 2.x
 ** xref:service_mesh/v2x/ossm-about.adoc[About OpenShift Service Mesh]
@@ -1308,6 +1341,7 @@
 ** xref:service_mesh/v1x/ossm-custom-resources.adoc[Custom resources]
 ** xref:service_mesh/v1x/threescale-adapter.adoc[3scale Istio adapter for 1.x]
 ** xref:service_mesh/v1x/removing-ossm.adoc[Removing Service Mesh]
+
 .Distributed tracing
 * xref:distr_tracing/distributed-tracing-release-notes.adoc[Distributed tracing release notes]
 * Distributed tracing architecture
@@ -1318,6 +1352,7 @@
 ** xref:distr_tracing/distr_tracing_install/distr-tracing-deploying-otel.adoc[Configuring distributed tracing data collection]
 ** xref:distr_tracing/distr_tracing_install/distr-tracing-updating.adoc[Upgrading distributed tracing]
 ** xref:distr_tracing/distr_tracing_install/distr-tracing-removing.adoc[Removing distributed tracing]
+
 .Virtualization
 * xref:virt/about-virt.adoc[About OpenShift Virtualization]
 * xref:virt/about-virt.adoc[About OKD Virtualization]
@@ -1358,62 +1393,62 @@
 ** xref:virt/virtual_machines/virt-installing-virtio-drivers-on-existing-windows-vm.adoc[Installing VirtIO driver on an existing Windows virtual machine]
 ** xref:virt/virtual_machines/virt-installing-virtio-drivers-on-new-windows-vm.adoc[Installing VirtIO driver on a new Windows virtual machine]
 ** Advanced virtual machine management
-** xref:virt/virtual_machines/advanced_vm_management/virt-working-with-resource-quotas-for-vms.adoc[Working with resource quotas for virtual machines]
-** xref:virt/virtual_machines/advanced_vm_management/virt-specifying-nodes-for-vms.adoc[Specifying nodes for virtual machines]
-** xref:virt/virtual_machines/advanced_vm_management/virt-configuring-certificate-rotation.adoc[Configuring certificate rotation]
-** xref:virt/virtual_machines/advanced_vm_management/virt-automating-management-tasks.adoc[Automating management tasks]
-** xref:virt/virtual_machines/advanced_vm_management/virt-uefi-mode-for-vms.adoc[UEFI mode for virtual machines]
-** xref:virt/virtual_machines/advanced_vm_management/virt-configuring-pxe-booting.adoc[Configuring PXE booting for virtual machines]
-** xref:virt/virtual_machines/advanced_vm_management/virt-using-huge-pages-with-vms.adoc[Using huge pages with virtual machines]
-** xref:virt/virtual_machines/advanced_vm_management/virt-dedicated-resources-vm.adoc[Enabling dedicated resources for a virtual machine]
-** xref:virt/virtual_machines/advanced_vm_management/virt-schedule-vms.adoc[Scheduling virtual machines]
-** xref:virt/virtual_machines/advanced_vm_management/virt-configuring-pci-passthrough.adoc[Configuring PCI passthrough]
-** xref:virt/virtual_machines/advanced_vm_management/virt-configuring-vgpu-passthrough.adoc[Configuring vGPU passthrough]
-** xref:virt/virtual_machines/advanced_vm_management/virt-configuring-mediated-devices.adoc[Configuring mediated devices]
-** xref:virt/virtual_machines/advanced_vm_management/virt-configuring-a-watchdog.adoc[Configuring a watchdog device]
-** xref:virt/virtual_machines/advanced_vm_management/virt-automatic-bootsource-updates.adoc[Automatic importing and updating of pre-defined boot sources]
-** xref:virt/virtual_machines/advanced_vm_management/virt-enabling-descheduler-evictions.adoc[Enabling descheduler evictions on virtual machines]
+*** xref:virt/virtual_machines/advanced_vm_management/virt-working-with-resource-quotas-for-vms.adoc[Working with resource quotas for virtual machines]
+*** xref:virt/virtual_machines/advanced_vm_management/virt-specifying-nodes-for-vms.adoc[Specifying nodes for virtual machines]
+*** xref:virt/virtual_machines/advanced_vm_management/virt-configuring-certificate-rotation.adoc[Configuring certificate rotation]
+*** xref:virt/virtual_machines/advanced_vm_management/virt-automating-management-tasks.adoc[Automating management tasks]
+*** xref:virt/virtual_machines/advanced_vm_management/virt-uefi-mode-for-vms.adoc[UEFI mode for virtual machines]
+*** xref:virt/virtual_machines/advanced_vm_management/virt-configuring-pxe-booting.adoc[Configuring PXE booting for virtual machines]
+*** xref:virt/virtual_machines/advanced_vm_management/virt-using-huge-pages-with-vms.adoc[Using huge pages with virtual machines]
+*** xref:virt/virtual_machines/advanced_vm_management/virt-dedicated-resources-vm.adoc[Enabling dedicated resources for a virtual machine]
+*** xref:virt/virtual_machines/advanced_vm_management/virt-schedule-vms.adoc[Scheduling virtual machines]
+*** xref:virt/virtual_machines/advanced_vm_management/virt-configuring-pci-passthrough.adoc[Configuring PCI passthrough]
+*** xref:virt/virtual_machines/advanced_vm_management/virt-configuring-vgpu-passthrough.adoc[Configuring vGPU passthrough]
+*** xref:virt/virtual_machines/advanced_vm_management/virt-configuring-mediated-devices.adoc[Configuring mediated devices]
+*** xref:virt/virtual_machines/advanced_vm_management/virt-configuring-a-watchdog.adoc[Configuring a watchdog device]
+*** xref:virt/virtual_machines/advanced_vm_management/virt-automatic-bootsource-updates.adoc[Automatic importing and updating of pre-defined boot sources]
+*** xref:virt/virtual_machines/advanced_vm_management/virt-enabling-descheduler-evictions.adoc[Enabling descheduler evictions on virtual machines]
 ** Importing virtual machines
-** xref:virt/virtual_machines/importing_vms/virt-tls-certificates-for-dv-imports.adoc[TLS certificates for data volume imports]
-** xref:virt/virtual_machines/importing_vms/virt-importing-virtual-machine-images-datavolumes.adoc[Importing virtual machine images with data volumes]
-** xref:virt/virtual_machines/importing_vms/virt-importing-virtual-machine-images-datavolumes-block.adoc[Importing virtual machine images into block storage with data volumes]
+*** xref:virt/virtual_machines/importing_vms/virt-tls-certificates-for-dv-imports.adoc[TLS certificates for data volume imports]
+*** xref:virt/virtual_machines/importing_vms/virt-importing-virtual-machine-images-datavolumes.adoc[Importing virtual machine images with data volumes]
+*** xref:virt/virtual_machines/importing_vms/virt-importing-virtual-machine-images-datavolumes-block.adoc[Importing virtual machine images into block storage with data volumes]
 ** Cloning virtual machines
-** xref:virt/virtual_machines/cloning_vms/virt-enabling-user-permissions-to-clone-datavolumes.adoc[Enabling user permissions to clone data volumes across namespaces]
-** xref:virt/virtual_machines/cloning_vms/virt-cloning-vm-disk-into-new-datavolume.adoc[Cloning a virtual machine disk into a new data volume]
-** xref:virt/virtual_machines/cloning_vms/virt-cloning-vm-using-datavolumetemplate.adoc[Cloning a virtual machine by using a data volume template]
-** xref:virt/virtual_machines/cloning_vms/virt-cloning-vm-disk-into-new-datavolume-block.adoc[Cloning a virtual machine disk into a new block storage data volume]
+*** xref:virt/virtual_machines/cloning_vms/virt-enabling-user-permissions-to-clone-datavolumes.adoc[Enabling user permissions to clone data volumes across namespaces]
+*** xref:virt/virtual_machines/cloning_vms/virt-cloning-vm-disk-into-new-datavolume.adoc[Cloning a virtual machine disk into a new data volume]
+*** xref:virt/virtual_machines/cloning_vms/virt-cloning-vm-using-datavolumetemplate.adoc[Cloning a virtual machine by using a data volume template]
+*** xref:virt/virtual_machines/cloning_vms/virt-cloning-vm-disk-into-new-datavolume-block.adoc[Cloning a virtual machine disk into a new block storage data volume]
 ** Virtual machine networking
-** xref:virt/virtual_machines/vm_networking/virt-using-the-default-pod-network-with-virt.adoc[Configuring a virtual machine for the default pod network]
-** xref:virt/virtual_machines/vm_networking/virt-using-the-default-pod-network-with-virt.adoc[Configuring a virtual machine for the default pod network with OKD Virtualization]
-** xref:virt/virtual_machines/vm_networking/virt-creating-service-vm.adoc[Creating a service to expose a virtual machine]
-** xref:virt/virtual_machines/vm_networking/virt-attaching-vm-multiple-networks.adoc[Connecting a virtual machine to a Linux bridge network]
-** xref:virt/virtual_machines/vm_networking/virt-attaching-vm-to-sriov-network.adoc[Connecting a virtual machine to an SR-IOV network]
-** xref:virt/virtual_machines/vm_networking/virt-connecting-vm-to-service-mesh.adoc[Connecting a virtual machine to a service mesh]
-** xref:virt/virtual_machines/vm_networking/virt-configuring-ip-for-vms.adoc[Configuring IP addresses for virtual machines]
-** xref:virt/virtual_machines/vm_networking/virt-viewing-ip-of-vm-nic.adoc[Viewing the IP address of NICs on a virtual machine]
-** xref:virt/virtual_machines/vm_networking/virt-using-mac-address-pool-for-vms.adoc[Using a MAC address pool for virtual machines]
+*** xref:virt/virtual_machines/vm_networking/virt-using-the-default-pod-network-with-virt.adoc[Configuring a virtual machine for the default pod network]
+*** xref:virt/virtual_machines/vm_networking/virt-using-the-default-pod-network-with-virt.adoc[Configuring a virtual machine for the default pod network with OKD Virtualization]
+*** xref:virt/virtual_machines/vm_networking/virt-creating-service-vm.adoc[Creating a service to expose a virtual machine]
+*** xref:virt/virtual_machines/vm_networking/virt-attaching-vm-multiple-networks.adoc[Connecting a virtual machine to a Linux bridge network]
+*** xref:virt/virtual_machines/vm_networking/virt-attaching-vm-to-sriov-network.adoc[Connecting a virtual machine to an SR-IOV network]
+*** xref:virt/virtual_machines/vm_networking/virt-connecting-vm-to-service-mesh.adoc[Connecting a virtual machine to a service mesh]
+*** xref:virt/virtual_machines/vm_networking/virt-configuring-ip-for-vms.adoc[Configuring IP addresses for virtual machines]
+*** xref:virt/virtual_machines/vm_networking/virt-viewing-ip-of-vm-nic.adoc[Viewing the IP address of NICs on a virtual machine]
+*** xref:virt/virtual_machines/vm_networking/virt-using-mac-address-pool-for-vms.adoc[Using a MAC address pool for virtual machines]
 ** Virtual machine disks
-** xref:virt/virtual_machines/virtual_disks/virt-features-for-storage.adoc[Features for storage]
-** xref:virt/virtual_machines/virtual_disks/virt-configuring-local-storage-for-vms.adoc[Configuring local storage for virtual machines]
-** xref:virt/virtual_machines/virtual_disks/virt-creating-data-volumes.adoc[Creating data volumes]
-** xref:virt/virtual_machines/virtual_disks/virt-reserving-pvc-space-fs-overhead.adoc[Reserving PVC space for file system overhead]
-** xref:virt/virtual_machines/virtual_disks/virt-configuring-cdi-for-namespace-resourcequota.adoc[Configuring CDI to work with namespaces that have a compute resource quota]
-** xref:virt/virtual_machines/virtual_disks/virt-managing-data-volume-annotations.adoc[Managing data volume annotations]
-** xref:virt/virtual_machines/virtual_disks/virt-using-preallocation-for-datavolumes.adoc[Using preallocation for data volumes]
-** xref:virt/virtual_machines/virtual_disks/virt-uploading-local-disk-images-web.adoc[Uploading local disk images by using the web console]
-** xref:virt/virtual_machines/virtual_disks/virt-uploading-local-disk-images-virtctl.adoc[Uploading local disk images by using the virtctl tool]
-** xref:virt/virtual_machines/virtual_disks/virt-uploading-local-disk-images-block.adoc[Uploading a local disk image to a block storage data volume]
-** xref:virt/virtual_machines/virtual_disks/virt-managing-vm-snapshots.adoc[Managing virtual machine snapshots]
-** xref:virt/virtual_machines/virtual_disks/virt-moving-local-vm-disk-to-different-node.adoc[Moving a local virtual machine disk to a different node]
-** xref:virt/virtual_machines/virtual_disks/virt-expanding-virtual-storage-with-blank-disk-images.adoc[Expanding virtual storage by adding blank disk images]
-** xref:virt/virtual_machines/virtual_disks/virt-cloning-a-datavolume-using-smart-cloning.adoc[Cloning a data volume using smart-cloning]
-** xref:virt/virtual_machines/virtual_disks/virt-creating-and-using-boot-sources.adoc[Creating and using boot sources]
-** xref:virt/virtual_machines/virtual_disks/virt-hot-plugging-virtual-disks.adoc[Hot-plugging virtual disks]
-** xref:virt/virtual_machines/virtual_disks/virt-using-container-disks-with-vms.adoc[Using container disks with virtual machines]
-** xref:virt/virtual_machines/virtual_disks/virt-preparing-cdi-scratch-space.adoc[Preparing CDI scratch space]
-** xref:virt/virtual_machines/virtual_disks/virt-reusing-statically-provisioned-persistent-volumes.adoc[Re-using statically provisioned persistent volumes]
-** xref:virt/virtual_machines/virtual_disks/virt-expanding-vm-disk.adoc[Expanding a virtual machine disk]
-** xref:virt/virtual_machines/virtual_disks/virt-deleting-datavolumes.adoc[Deleting data volumes]
+*** xref:virt/virtual_machines/virtual_disks/virt-features-for-storage.adoc[Features for storage]
+*** xref:virt/virtual_machines/virtual_disks/virt-configuring-local-storage-for-vms.adoc[Configuring local storage for virtual machines]
+*** xref:virt/virtual_machines/virtual_disks/virt-creating-data-volumes.adoc[Creating data volumes]
+*** xref:virt/virtual_machines/virtual_disks/virt-reserving-pvc-space-fs-overhead.adoc[Reserving PVC space for file system overhead]
+*** xref:virt/virtual_machines/virtual_disks/virt-configuring-cdi-for-namespace-resourcequota.adoc[Configuring CDI to work with namespaces that have a compute resource quota]
+*** xref:virt/virtual_machines/virtual_disks/virt-managing-data-volume-annotations.adoc[Managing data volume annotations]
+*** xref:virt/virtual_machines/virtual_disks/virt-using-preallocation-for-datavolumes.adoc[Using preallocation for data volumes]
+*** xref:virt/virtual_machines/virtual_disks/virt-uploading-local-disk-images-web.adoc[Uploading local disk images by using the web console]
+*** xref:virt/virtual_machines/virtual_disks/virt-uploading-local-disk-images-virtctl.adoc[Uploading local disk images by using the virtctl tool]
+*** xref:virt/virtual_machines/virtual_disks/virt-uploading-local-disk-images-block.adoc[Uploading a local disk image to a block storage data volume]
+*** xref:virt/virtual_machines/virtual_disks/virt-managing-vm-snapshots.adoc[Managing virtual machine snapshots]
+*** xref:virt/virtual_machines/virtual_disks/virt-moving-local-vm-disk-to-different-node.adoc[Moving a local virtual machine disk to a different node]
+*** xref:virt/virtual_machines/virtual_disks/virt-expanding-virtual-storage-with-blank-disk-images.adoc[Expanding virtual storage by adding blank disk images]
+*** xref:virt/virtual_machines/virtual_disks/virt-cloning-a-datavolume-using-smart-cloning.adoc[Cloning a data volume using smart-cloning]
+*** xref:virt/virtual_machines/virtual_disks/virt-creating-and-using-boot-sources.adoc[Creating and using boot sources]
+*** xref:virt/virtual_machines/virtual_disks/virt-hot-plugging-virtual-disks.adoc[Hot-plugging virtual disks]
+*** xref:virt/virtual_machines/virtual_disks/virt-using-container-disks-with-vms.adoc[Using container disks with virtual machines]
+*** xref:virt/virtual_machines/virtual_disks/virt-preparing-cdi-scratch-space.adoc[Preparing CDI scratch space]
+*** xref:virt/virtual_machines/virtual_disks/virt-reusing-statically-provisioned-persistent-volumes.adoc[Re-using statically provisioned persistent volumes]
+*** xref:virt/virtual_machines/virtual_disks/virt-expanding-vm-disk.adoc[Expanding a virtual machine disk]
+*** xref:virt/virtual_machines/virtual_disks/virt-deleting-datavolumes.adoc[Deleting data volumes]
 * Virtual machine templates
 ** xref:virt/vm_templates/virt-creating-vm-template.adoc[Creating virtual machine templates]
 ** xref:virt/vm_templates/virt-editing-vm-template.adoc[Editing virtual machine templates]
@@ -1455,6 +1490,7 @@
 ** xref:virt/logging_events_monitoring/virt-collecting-virt-data.adoc[Collecting data for Red Hat Support]
 * Backup and restore
 ** xref:virt/backup_restore/virt-backup-restore-overview.adoc[Backing up and restoring virtual machines]
+
 .Serverless
 * xref:serverless/serverless-release-notes.adoc[Release notes]
 * Discover
