@@ -1,0 +1,13 @@
+:_content-type: ASSEMBLY
+include::ROOT:partial$attributes-openshift-dedicated.adoc[]
+:context: rosa-policy-responsibility-matrix
+[id="rosa-policy-responsibility-matrix"]
+= Responsibility assignment matrix
+
+toc::[]
+
+This documentation outlines Red Hat, cloud provider, and customer responsibilities for the {product-title} (ROSA) managed service.
+
+include::ROOT:partial$rosa-policy-responsibilities.adoc[leveloffset=+1]
+include::ROOT:partial$rosa-policy-shared-responsibility.adoc[leveloffset=+1]
+include::ROOT:partial$rosa-policy-customer-responsibility.adoc[leveloffset=+1]

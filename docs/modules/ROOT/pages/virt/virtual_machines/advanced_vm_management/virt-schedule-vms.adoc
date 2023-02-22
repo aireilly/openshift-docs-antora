@@ -1,0 +1,14 @@
+:_content-type: ASSEMBLY
+[id="virt-schedule-vms"]
+= Scheduling virtual machines
+include::ROOT:partial$common-attributes.adoc[]
+:context: virt-schedule-vms
+
+toc::[]
+
+You can schedule a virtual machine (VM) on a node by ensuring that the VM's CPU model and policy attribute are matched for compatibility with the CPU models and policy attributes supported by the node.
+
+include::ROOT:partial$virt-policy-attributes.adoc[leveloffset=+1]
+include::ROOT:partial$virt-setting-policy-attributes.adoc[leveloffset=+1]
+include::ROOT:partial$virt-schedule-supported-cpu-model-vms.adoc[leveloffset=+1]
+include::ROOT:partial$virt-schedule-cpu-host-model-vms.adoc[leveloffset=+1]

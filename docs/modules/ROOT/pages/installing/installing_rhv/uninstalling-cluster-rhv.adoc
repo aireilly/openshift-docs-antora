@@ -1,0 +1,13 @@
+:_content-type: ASSEMBLY
+[id="uninstalling-cluster-rhv"]
+= Uninstalling a cluster on {rh-virtualization}
+include::ROOT:partial$common-attributes.adoc[]
+:context: uninstalling-cluster-rhv
+
+toc::[]
+
+You can remove an {product-title} cluster from {rh-virtualization-first}.
+
+include::ROOT:partial$installation-uninstall-clouds.adoc[leveloffset=+1]
+
+include::ROOT:partial$installation-rhv-removing-cluster-upi.adoc[leveloffset=+1]

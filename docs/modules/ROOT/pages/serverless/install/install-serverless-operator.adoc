@@ -1,0 +1,30 @@
+:_content-type: ASSEMBLY
+include::ROOT:partial$common-attributes.adoc[]
+[id="install-serverless-operator"]
+= Installing the {ServerlessOperatorName}
+:context: install-serverless-operator
+
+toc::[]
+
+Installing the {ServerlessOperatorName} enables you to install and use Knative Serving, Knative Eventing, and Knative Kafka on a {product-title} cluster. The {ServerlessOperatorName} manages Knative custom resource definitions (CRDs) for your cluster and enables you to configure them without directly modifying individual config maps for each component.
+
+
+// universal install doc
+include::ROOT:partial$serverless-install-web-console.adoc[leveloffset=+1]
+
+[IMPORTANT]
+====
+If you want to xref:serverless/serverless-tracing.adoc#serverless-tracing[use {DTProductName} with {ServerlessProductName}], you must install and configure {DTProductName} before you install Knative Serving or Knative Eventing.
+====
+
+include::ROOT:partial$serverless-install-cli.adoc[leveloffset=+1]
+
+[IMPORTANT]
+====
+If you want to xref:serverless/serverless-tracing.adoc#serverless-tracing[use {DTProductName} with {ServerlessProductName}], you must install and configure {DTProductName} before you install Knative Serving or Knative Eventing.
+====
+
+[id="next-steps_install-serverless-operator"]
+== Next steps
+
+* After the {ServerlessOperatorName} is installed, you can xref:serverless/install/installing-knative-serving.adoc#installing-knative-serving[install Knative Serving] or xref:serverless/install/installing-knative-eventing.adoc#installing-knative-eventing[install Knative Eventing].

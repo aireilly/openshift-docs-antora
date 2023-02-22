@@ -1,0 +1,17 @@
+:_content-type: ASSEMBLY
+[id="understanding-image-builds"]
+= Understanding image builds
+include::ROOT:partial$common-attributes.adoc[]
+:context: understanding-image-builds
+
+toc::[]
+
+include::ROOT:partial$builds-about.adoc[leveloffset=+1]
+
+include::ROOT:partial$builds-strategy-docker-build.adoc[leveloffset=+2]
+
+include::ROOT:partial$builds-strategy-s2i-build.adoc[leveloffset=+2]
+
+include::ROOT:partial$builds-strategy-custom-build.adoc[leveloffset=+2]
+
+include::ROOT:partial$builds-strategy-pipeline-build.adoc[leveloffset=+2]

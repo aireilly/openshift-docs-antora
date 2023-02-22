@@ -1,0 +1,82 @@
+:_content-type: ASSEMBLY
+[id="configuring-ingress"]
+= Ingress Operator in {product-title}
+include::ROOT:partial$common-attributes.adoc[]
+:context: configuring-ingress
+
+toc::[]
+include::ROOT:partial$nw-ne-openshift-ingress.adoc[leveloffset=+1]
+
+include::ROOT:partial$nw-installation-ingress-config-asset.adoc[leveloffset=+1]
+
+include::ROOT:partial$nw-ingress-controller-configuration-parameters.adoc[leveloffset=+1]
+
+[id="configuring-ingress-controller-tls"]
+=== Ingress Controller TLS security profiles
+
+TLS security profiles provide a way for servers to regulate which ciphers a connecting client can use when connecting to the server.
+
+// Understanding TLS security profiles
+include::ROOT:partial$tls-profiles-understanding.adoc[leveloffset=+3]
+
+// Configuring the TLS profile for the Ingress Controller
+include::ROOT:partial$tls-profiles-ingress-configuring.adoc[leveloffset=+3]
+
+include::ROOT:partial$nw-mutual-tls-auth.adoc[leveloffset=+3]
+
+include::ROOT:partial$nw-ingress-view.adoc[leveloffset=+1]
+
+include::ROOT:partial$nw-ingress-operator-status.adoc[leveloffset=+1]
+
+include::ROOT:partial$nw-ingress-operator-logs.adoc[leveloffset=+1]
+
+include::ROOT:partial$nw-ingress-controller-status.adoc[leveloffset=+1]
+
+[id="configuring-ingress-controller"]
+== Configuring the Ingress Controller
+
+include::ROOT:partial$nw-ingress-setting-a-custom-default-certificate.adoc[leveloffset=+2]
+
+include::ROOT:partial$nw-ingress-custom-default-certificate-remove.adoc[leveloffset=+2]
+
+include::ROOT:partial$nw-scaling-ingress-controller.adoc[leveloffset=+2]
+
+include::ROOT:partial$nw-configure-ingress-access-logging.adoc[leveloffset=+2]
+
+include::ROOT:partial$nw-ingress-setting-thread-count.adoc[leveloffset=+2]
+
+include::ROOT:partial$nw-ingress-sharding.adoc[leveloffset=+2]
+
+include::ROOT:partial$nw-ingress-sharding-route-labels.adoc[leveloffset=+3]
+
+include::ROOT:partial$nw-ingress-sharding-namespace-labels.adoc[leveloffset=+3]
+
+include::ROOT:partial$nw-ingress-setting-internal-lb.adoc[leveloffset=+2]
+
+include::ROOT:partial$nw-ingress-controller-configuration-gcp-global-access.adoc[leveloffset=+2]
+
+include::ROOT:partial$nw-ingress-default-internal.adoc[leveloffset=+2]
+
+include::ROOT:partial$nw-route-admission-policy.adoc[leveloffset=+2]
+
+include::ROOT:partial$using-wildcard-routes.adoc[leveloffset=+2]
+
+include::ROOT:partial$nw-using-ingress-forwarded.adoc[leveloffset=+2]
+
+include::ROOT:partial$nw-http2-haproxy.adoc[leveloffset=+2]
+
+include::ROOT:partial$nw-ingress-controller-configuration-proxy-protocol.adoc[leveloffset=+2]
+
+include::ROOT:partial$nw-ingress-configuring-application-domain.adoc[leveloffset=+2]
+
+include::ROOT:partial$nw-ingress-converting-http-header-case.adoc[leveloffset=+2]
+
+include::ROOT:partial$nw-configuring-router-compression.adoc[leveloffset=+2]
+
+include::ROOT:partial$nw-customize-ingress-error-pages.adoc[leveloffset=+2]
+//include::ROOT:partial$nw-ingress-select-route.adoc[leveloffset=+2]
+
+[role="_additional-resources"]
+== Additional resources
+
+* xref:networking/configuring-a-custom-pki.adoc#configuring-a-custom-pki[Configuring a custom PKI]

@@ -1,0 +1,11 @@
+:_content-type: ASSEMBLY
+[id="uninstalling-cluster-openstack"]
+= Uninstalling a cluster on OpenStack
+include::ROOT:partial$common-attributes.adoc[]
+:context: uninstalling-cluster-openstack
+
+toc::[]
+
+You can remove a cluster that you deployed to {rh-openstack-first}.
+
+include::ROOT:partial$installation-uninstall-clouds.adoc[leveloffset=+1]

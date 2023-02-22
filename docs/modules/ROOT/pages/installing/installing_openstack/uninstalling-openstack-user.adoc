@@ -1,0 +1,13 @@
+:_content-type: ASSEMBLY
+[id="uninstalling-openstack-user"]
+= Uninstalling a cluster on {rh-openstack} from your own infrastructure
+include::ROOT:partial$common-attributes.adoc[]
+:context: uninstalling-openstack-user
+
+toc::[]
+
+You can remove a cluster that you deployed to {rh-openstack-first} on user-provisioned infrastructure.
+
+// include::ROOT:partial$installation-uninstall-clouds.adoc[leveloffset=+1]
+include::ROOT:partial$installation-osp-downloading-modules.adoc[leveloffset=+1]
+include::ROOT:partial$installation-uninstall-infra.adoc[leveloffset=+1]

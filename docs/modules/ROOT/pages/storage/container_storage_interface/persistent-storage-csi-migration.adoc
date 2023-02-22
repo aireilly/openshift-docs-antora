@@ -1,0 +1,21 @@
+:_content-type: ASSEMBLY
+[id="persistent-storage-csi-migration"]
+= CSI automatic migration
+include::ROOT:partial$common-attributes.adoc[]
+:context: persistent-storage-csi-migration
+
+toc::[]
+
+{product-title} provides automatic migration for supported in-tree volume plugins to their equivalent Container Storage Interface (CSI) drivers.
+
+:FeatureName: CSI automatic migration
+include::ROOT:partial$technology-preview.adoc[leveloffset=+1]
+
+include::ROOT:partial$persistent-storage-csi-migration-overview.adoc[leveloffset=+1]
+
+include::ROOT:partial$persistent-storage-csi-migration-enable.adoc[leveloffset=+1]
+
+[role="_additional-resources"]
+== Additional resources
+
+* xref:nodes/clusters/nodes-cluster-enabling-features.adoc#nodes-cluster-enabling[Enabling features using feature gates]

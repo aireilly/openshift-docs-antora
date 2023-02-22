@@ -1,0 +1,13 @@
+:_content-type: ASSEMBLY
+[id="file-integrity-operator-advanced-usage"]
+= Performing advanced Custom File Integrity Operator tasks
+include::ROOT:partial$common-attributes.adoc[]
+:context: file-integrity-operator
+
+toc::[]
+
+include::ROOT:partial$file-integrity-operator-reinitializing-database.adoc[leveloffset=+1]
+
+include::ROOT:partial$file-integrity-operator-machine-config-integration.adoc[leveloffset=+1]
+
+include::ROOT:partial$file-integrity-operator-exploring-daemon-sets.adoc[leveloffset=+1]

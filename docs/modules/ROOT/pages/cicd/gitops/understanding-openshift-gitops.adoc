@@ -1,0 +1,13 @@
+:_content-type: ASSEMBLY
+[id="understanding-openshift-gitops"]
+= Understanding OpenShift GitOps
+include::ROOT:partial$common-attributes.adoc[]
+:context: understanding-openshift-gitops
+
+toc::[]
+
+//Concept Module
+include::ROOT:partial$about-gitops.adoc[leveloffset=+1]
+
+//Concept Module
+include::ROOT:partial$about-redhat-openshift-gitops.adoc[leveloffset=+1]

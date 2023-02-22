@@ -1,0 +1,40 @@
+:_content-type: ASSEMBLY
+[id="dynamic-provisioning"]
+= Dynamic provisioning
+include::ROOT:partial$common-attributes.adoc[]
+:context: dynamic-provisioning
+
+toc::[]
+
+include::ROOT:partial$dynamic-provisioning-about.adoc[leveloffset=+1]
+
+include::ROOT:partial$dynamic-provisioning-available-plugins.adoc[leveloffset=+1]
+
+include::ROOT:partial$dynamic-provisioning-defining-storage-class.adoc[leveloffset=+1]
+
+include::ROOT:partial$dynamic-provisioning-storage-class-definition.adoc[leveloffset=+2]
+
+include::ROOT:partial$dynamic-provisioning-annotations.adoc[leveloffset=+2]
+
+include::ROOT:partial$dynamic-provisioning-cinder-definition.adoc[leveloffset=+2]
+
+include::ROOT:partial$dynamic-provisioning-manila-csi-definition.adoc[leveloffset=+2]
+
+include::ROOT:partial$dynamic-provisioning-aws-definition.adoc[leveloffset=+2]
+
+include::ROOT:partial$dynamic-provisioning-azure-disk-definition.adoc[leveloffset=+2]
+
+include::ROOT:partial$dynamic-provisioning-azure-file-definition.adoc[leveloffset=+2]
+
+include::ROOT:partial$dynamic-provisioning-azure-file-considerations.adoc[leveloffset=+3]
+
+include::ROOT:partial$dynamic-provisioning-gce-definition.adoc[leveloffset=+2]
+
+// include::ROOT:partial$dynamic-provisioning-gluster-definition.adoc[leveloffset=+2]
+
+// include::ROOT:partial$dynamic-provisioning-ceph-rbd-definition.adoc[leveloffset=+2]
+
+include::ROOT:partial$dynamic-provisioning-vsphere-definition.adoc[leveloffset=+2]
+
+
+include::ROOT:partial$dynamic-provisioning-change-default-class.adoc[leveloffset=+1]

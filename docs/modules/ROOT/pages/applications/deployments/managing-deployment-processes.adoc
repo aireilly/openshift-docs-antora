@@ -1,0 +1,44 @@
+:_content-type: ASSEMBLY
+[id="deployment-operations"]
+= Managing deployment processes
+include::ROOT:partial$common-attributes.adoc[]
+:context: deployment-operations
+
+toc::[]
+
+[id="deploymentconfig-operations"]
+== Managing DeploymentConfig objects
+
+`DeploymentConfig` objects can be managed from the {product-title} web console's *Workloads* page or using the `oc` CLI. The following procedures show CLI usage unless otherwise stated.
+
+include::ROOT:partial$deployments-starting-deployment.adoc[leveloffset=+2]
+include::ROOT:partial$deployments-viewing-deployment.adoc[leveloffset=+2]
+include::ROOT:partial$deployments-retrying-deployment.adoc[leveloffset=+2]
+include::ROOT:partial$deployments-rolling-back.adoc[leveloffset=+2]
+include::ROOT:partial$deployments-exec-cmd-in-container.adoc[leveloffset=+2]
+include::ROOT:partial$deployments-viewing-logs.adoc[leveloffset=+2]
+include::ROOT:partial$deployments-triggers.adoc[leveloffset=+2]
+include::ROOT:partial$deployments-setting-triggers.adoc[leveloffset=+3]
+include::ROOT:partial$deployments-setting-resources.adoc[leveloffset=+2]
+
+[role="_additional-resources"]
+.Additional resources
+
+* For more information about resource limits and requests, see xref:nodes/clusters/nodes-cluster-resource-configure.adoc#nodes-cluster-resource-configure-about_nodes-cluster-resource-configure[Understanding managing application memory].
+
+include::ROOT:partial$deployments-scaling-manually.adoc[leveloffset=+2]
+include::ROOT:partial$deployments-accessing-private-repos.adoc[leveloffset=+2]
+
+ifdef::openshift-enterprise,openshift-webscale,openshift-origin[]
+include::ROOT:partial$deployments-assigning-pods-to-nodes.adoc[leveloffset=+2]
+endif::[]
+
+ifndef::openshift-online[]
+include::ROOT:partial$deployments-running-pod-svc-acct.adoc[leveloffset=+2]
+endif::[]
+
+////
+== Managing Deployments
+
+Need docs on managing Deployment objects.
+////

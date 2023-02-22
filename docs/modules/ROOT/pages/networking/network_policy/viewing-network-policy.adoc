@@ -1,0 +1,13 @@
+:_content-type: ASSEMBLY
+[id="viewing-network-policy"]
+= Viewing a network policy
+include::ROOT:partial$common-attributes.adoc[]
+:context: viewing-network-policy
+
+toc::[]
+
+As a user with the `admin` role, you can view a network policy for a namespace.
+
+include::ROOT:partial$nw-networkpolicy-view.adoc[leveloffset=+1]
+
+include::ROOT:partial$nw-networkpolicy-object.adoc[leveloffset=+1]

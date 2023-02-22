@@ -1,0 +1,33 @@
+:_content-type: ASSEMBLY
+[id="using-rbac"]
+= Using RBAC to define and apply permissions
+include::ROOT:partial$common-attributes.adoc[]
+:context: using-rbac
+
+toc::[]
+
+include::ROOT:partial$rbac-overview.adoc[leveloffset=+1]
+
+include::ROOT:partial$rbac-projects-namespaces.adoc[leveloffset=+1]
+
+include::ROOT:partial$rbac-default-projects.adoc[leveloffset=+1]
+
+include::ROOT:partial$rbac-viewing-cluster-roles.adoc[leveloffset=+1]
+
+include::ROOT:partial$rbac-viewing-local-roles.adoc[leveloffset=+1]
+
+include::ROOT:partial$rbac-adding-roles.adoc[leveloffset=+1]
+
+include::ROOT:partial$rbac-creating-local-role.adoc[leveloffset=+1]
+
+ifdef::openshift-enterprise,openshift-webscale,openshift-origin[]
+include::ROOT:partial$rbac-creating-cluster-role.adoc[leveloffset=+1]
+endif::[]
+
+include::ROOT:partial$rbac-local-role-binding-commands.adoc[leveloffset=+1]
+
+ifdef::openshift-enterprise,openshift-webscale,openshift-origin[]
+include::ROOT:partial$rbac-cluster-role-binding-commands.adoc[leveloffset=+1]
+
+include::ROOT:partial$rbac-creating-cluster-admin.adoc[leveloffset=+1]
+endif::[]

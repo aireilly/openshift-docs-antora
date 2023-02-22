@@ -1,0 +1,11 @@
+:_content-type: ASSEMBLY
+[id="olm-workflow"]
+= Operator Lifecycle Manager workflow
+include::ROOT:partial$common-attributes.adoc[]
+:context: olm-workflow
+
+toc::[]
+
+This guide outlines the workflow of Operator Lifecycle Manager (OLM) in {product-title}.
+
+include::ROOT:partial$olm-upgrades.adoc[leveloffset=+1]

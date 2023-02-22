@@ -1,0 +1,13 @@
+:_content-type: ASSEMBLY
+include::ROOT:partial$attributes-openshift-dedicated.adoc[]
+[id="rosa-troubleshooting-iam-resources"]
+= Troubleshooting IAM roles
+:context: rosa-troubleshooting-iam-resources
+
+toc::[]
+
+include::ROOT:partial$rosa-sts-ocm-and-user-role-troubleshooting.adoc[leveloffset=+1]
+include::ROOT:partial$rosa-sts-ocm-role-creation.adoc[leveloffset=+2]
+include::ROOT:partial$rosa-sts-user-role-creation.adoc[leveloffset=+2]
+include::ROOT:partial$rosa-sts-aws-requirements-creating-association.adoc[leveloffset=+2]
+include::ROOT:partial$rosa-sts-aws-requirements-creating-multi-association.adoc[leveloffset=+2]

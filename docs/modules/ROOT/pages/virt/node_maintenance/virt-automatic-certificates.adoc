@@ -1,0 +1,11 @@
+:_content-type: ASSEMBLY
+[id="virt-automatic-certificates"]
+= Automatic renewal of TLS certificates
+include::ROOT:partial$common-attributes.adoc[]
+:context: virt-automatic-certificates
+
+toc::[]
+
+All TLS certificates for {VirtProductName} components are renewed and rotated automatically. You are not required to refresh them manually.
+
+include::ROOT:partial$virt-automatic-certificates-renewal.adoc[leveloffset=+1]

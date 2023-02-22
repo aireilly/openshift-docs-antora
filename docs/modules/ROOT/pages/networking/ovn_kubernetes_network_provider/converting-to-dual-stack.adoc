@@ -1,0 +1,17 @@
+:_content-type: ASSEMBLY
+[id="converting-to-dual-stack"]
+= Converting to IPv4/IPv6 dual-stack networking
+include::ROOT:partial$common-attributes.adoc[]
+:context: converting-to-dual-stack
+
+toc::[]
+
+As a cluster administrator, you can convert your IPv4 single-stack cluster to a dual-network cluster network that supports IPv4 and IPv6 address families.
+After converting to dual-stack, all newly created pods are dual-stack enabled.
+
+[NOTE]
+====
+A dual-stack network is supported on clusters provisioned on bare metal, IBM Power infrastructure, and single node OpenShift clusters.
+====
+
+include::ROOT:partial$nw-dual-stack-convert.adoc[leveloffset=+1]

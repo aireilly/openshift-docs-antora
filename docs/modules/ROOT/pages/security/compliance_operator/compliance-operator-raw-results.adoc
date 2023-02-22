@@ -1,0 +1,9 @@
+:_content-type: ASSEMBLY
+[id="compliance-operator-raw-results"]
+= Retrieving Compliance Operator raw results
+include::ROOT:partial$common-attributes.adoc[]
+:context: compliance-raw-results
+
+When proving compliance for your {product-title} cluster, you might need to provide the scan results for auditing purposes.
+
+include::ROOT:partial$compliance-results.adoc[leveloffset=+1]

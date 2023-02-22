@@ -1,0 +1,11 @@
+:_content-type: ASSEMBLY
+[id="uninstalling-cluster-ibm-cloud"]
+= Uninstalling a cluster on IBM Cloud VPC
+include::ROOT:partial$common-attributes.adoc[]
+:context: uninstalling-cluster-ibm-cloud
+
+toc::[]
+
+You can remove a cluster that you deployed to IBM Cloud VPC.
+
+include::ROOT:partial$installation-uninstall-clouds.adoc[leveloffset=+1]

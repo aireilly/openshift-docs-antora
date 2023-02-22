@@ -1,0 +1,12 @@
+:_content-type: ASSEMBLY
+[id="flowcollector-api"]
+= FlowCollector configuration parameters 
+include::ROOT:partial$common-attributes.adoc[]
+:context: network_observability
+
+toc::[]
+
+FlowCollector is the Schema for the flowcollectors API, which pilots and configures netflow collection.
+
+
+include::ROOT:partial$network-observability-flowcollector-api-specifications.adoc[leveloffset=+1]

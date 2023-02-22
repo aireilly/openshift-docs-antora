@@ -1,0 +1,20 @@
+:_content-type: ASSEMBLY
+[id="odc-working-with-helm-releases"]
+= Working with Helm releases
+include::ROOT:partial$common-attributes.adoc[]
+:context: working-with-helm-releases
+
+toc::[]
+
+You can use the *Developer* perspective in the web console to update, rollback, or uninstall a Helm release.
+
+== Prerequisites
+
+* You have logged in to the web console and have switched to xref:web_console/web-console-overview.adoc#about-developer-perspective_web-console-overview[the *Developer* perspective].
+
+
+include::ROOT:partial$odc-upgrading-helm-release.adoc[leveloffset=+1]
+
+include::ROOT:partial$odc-rolling-back-helm-release.adoc[leveloffset=+1]
+
+include::ROOT:partial$odc-uninstalling-helm-release.adoc[leveloffset=+1]

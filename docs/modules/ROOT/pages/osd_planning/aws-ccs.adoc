@@ -1,0 +1,18 @@
+:_content-type: ASSEMBLY
+[id="aws-ccs"]
+= Customer Cloud Subscriptions on AWS
+:context: aws-ccs
+include::ROOT:partial$attributes-openshift-dedicated.adoc[]
+
+toc::[]
+
+[role="_abstract"]
+{product-title} provides a Customer Cloud Subscription (CCS) model that allows Red Hat to deploy and manage clusters into a customer’s existing Amazon Web Service (AWS) account.
+
+include::ROOT:partial$ccs-aws-understand.adoc[leveloffset=+1]
+include::ROOT:partial$ccs-aws-customer-requirements.adoc[leveloffset=+1]
+include::ROOT:partial$ccs-aws-customer-procedure.adoc[leveloffset=+1]
+include::ROOT:partial$ccs-aws-scp.adoc[leveloffset=+1]
+include::ROOT:partial$ccs-aws-iam.adoc[leveloffset=+1]
+include::ROOT:partial$ccs-aws-provisioned.adoc[leveloffset=+1]
+include::ROOT:partial$aws-limits.adoc[leveloffset=+1]

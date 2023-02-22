@@ -1,0 +1,53 @@
+:_content-type: ASSEMBLY
+// Assembly filename:route-configuration.adoc
+// Explains route configuration.
+[id="route-configuration"]
+= Route configuration
+include::ROOT:partial$common-attributes.adoc[]
+:context: route-configuration
+
+toc::[]
+
+
+//Creating an insecure route
+include::ROOT:partial$nw-creating-a-route.adoc[leveloffset=+1]
+//
+//Creating route timeouts
+include::ROOT:partial$nw-configuring-route-timeouts.adoc[leveloffset=+1]
+
+//HTTP Strict Transport Security
+include::ROOT:partial$nw-enabling-hsts.adoc[leveloffset=+1]
+
+//Enabling HTTP strict transport security per-route
+include::ROOT:partial$nw-enabling-hsts-per-route.adoc[leveloffset=+2]
+
+//Disabling HTTP strict transport security per-route
+include::ROOT:partial$nw-disabling-hsts.adoc[leveloffset=+2]
+
+//Enforcing HTTP strict transport security per-domain
+include::ROOT:partial$nw-enforcing-hsts-per-domain.adoc[leveloffset=+2]
+
+//Troubleshooting Throughput Issues
+include::ROOT:partial$nw-throughput-troubleshoot.adoc[leveloffset=+1]
+
+//Using cookies to keep route statefulness
+include::ROOT:partial$nw-using-cookies-keep-route-statefulness.adoc[leveloffset=+1]
+
+include::ROOT:partial$nw-annotating-a-route-with-a-cookie-name.adoc[leveloffset=+2]
+
+include::ROOT:partial$nw-path-based-routes.adoc[leveloffset=+1]
+
+include::ROOT:partial$nw-route-specific-annotations.adoc[leveloffset=+1]
+
+include::ROOT:partial$nw-route-admission-policy.adoc[leveloffset=+1]
+
+include::ROOT:partial$nw-ingress-creating-a-route-via-an-ingress.adoc[leveloffset=+1]
+
+include::ROOT:partial$nw-ingress-edge-route-default-certificate.adoc[leveloffset=+1]
+
+include::ROOT:partial$nw-router-configuring-dual-stack.adoc[leveloffset=+1]
+
+[role="_additional-resources"]
+.Additional resources
+
+* xref:networking/ingress-operator.adoc#configuring-ingress[Specifying an alternative cluster domain using the appsDomain option]

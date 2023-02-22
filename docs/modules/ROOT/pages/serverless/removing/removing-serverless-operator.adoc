@@ -1,0 +1,11 @@
+:_content-type: ASSEMBLY
+include::ROOT:partial$common-attributes.adoc[]
+[id="removing-serverless-operator"]
+= Removing the {ServerlessOperatorName}
+:context: removing-serverless-operator
+
+After you have removed Knative Serving and Knative Eventing, you can remove the {ServerlessOperatorName}. You can do this by using the {product-title} web console or the `oc` CLI.
+
+include::ROOT:partial$olm-deleting-operators-from-a-cluster-using-web-console.adoc[leveloffset=+1]
+include::ROOT:partial$olm-deleting-operators-from-a-cluster-using-cli.adoc[leveloffset=+1]
+include::ROOT:partial$olm-refresh-subs.adoc[leveloffset=+1]

@@ -1,0 +1,50 @@
+:_content-type: ASSEMBLY
+[id="using-templates"]
+= Using templates
+include::ROOT:partial$common-attributes.adoc[]
+:context: using-templates
+
+toc::[]
+
+The following sections provide an overview of templates, as well as how to use and create them.
+
+include::ROOT:partial$templates-overview.adoc[leveloffset=+1]
+
+include::ROOT:partial$templates-uploading.adoc[leveloffset=+1]
+
+include::ROOT:partial$templates-creating-from-console.adoc[leveloffset=+1]
+
+include::ROOT:partial$templates-using-the-cli.adoc[leveloffset=+1]
+
+include::ROOT:partial$templates-cli-labels.adoc[leveloffset=+2]
+
+include::ROOT:partial$templates-cli-parameters.adoc[leveloffset=+2]
+
+include::ROOT:partial$templates-cli-generating-list-of-objects.adoc[leveloffset=+2]
+
+include::ROOT:partial$templates-modifying-uploaded-template.adoc[leveloffset=+1]
+
+include::ROOT:partial$templates-using-instant-app-quickstart.adoc[leveloffset=+1]
+
+include::ROOT:partial$templates-quickstart.adoc[leveloffset=+2]
+
+include::ROOT:partial$templates-writing.adoc[leveloffset=+1]
+
+include::ROOT:partial$templates-writing-description.adoc[leveloffset=+2]
+
+include::ROOT:partial$templates-writing-labels.adoc[leveloffset=+2]
+
+include::ROOT:partial$templates-writing-parameters.adoc[leveloffset=+2]
+
+include::ROOT:partial$templates-writing-object-list.adoc[leveloffset=+2]
+
+include::ROOT:partial$templates-marking-as-bindable.adoc[leveloffset=+2]
+
+include::ROOT:partial$templates-exposing-object-fields.adoc[leveloffset=+2]
+
+include::ROOT:partial$templates-waiting-for-readiness.adoc[leveloffset=+2]
+
+include::ROOT:partial$templates-create-from-existing-object.adoc[leveloffset=+2]
+
+
+//Add quick start and other relevant tutorials here.

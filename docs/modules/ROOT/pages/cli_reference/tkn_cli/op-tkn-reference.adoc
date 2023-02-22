@@ -1,0 +1,46 @@
+:_content-type: ASSEMBLY
+[id='op-tkn-reference']
+= OpenShift Pipelines tkn reference
+include::ROOT:partial$common-attributes.adoc[]
+:context: op-tkn-reference
+
+toc::[]
+
+
+This section lists the basic `tkn` CLI commands.
+
+== Basic syntax
+`tkn [command or options] [arguments...]`
+
+== Global options
+`--help, -h`
+
+// Utility commands
+include::ROOT:partial$op-tkn-utility-commands.adoc[leveloffset=+1]
+
+// Pipeline management commands
+include::ROOT:partial$op-tkn-pipeline-management.adoc[leveloffset=+1]
+
+// Pipeline run commands
+include::ROOT:partial$op-tkn-pipeline-run.adoc[leveloffset=+1]
+
+// Task management commands
+include::ROOT:partial$op-tkn-task-management.adoc[leveloffset=+1]
+
+// Task run commands
+include::ROOT:partial$op-tkn-task-run.adoc[leveloffset=+1]
+
+// Condition management commands
+include::ROOT:partial$op-tkn-condition-management.adoc[leveloffset=+1]
+
+// Pipeline resources commands
+include::ROOT:partial$op-tkn-pipeline-resource-management.adoc[leveloffset=+1]
+
+// ClusterTask management commands
+include::ROOT:partial$op-tkn-clustertask-management.adoc[leveloffset=+1]
+
+// Trigger management commands
+include::ROOT:partial$op-tkn-trigger-management.adoc[leveloffset=+1]
+
+// Hub interaction commands
+include::ROOT:partial$op-tkn-hub-interaction.adoc[leveloffset=+1]

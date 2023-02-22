@@ -1,0 +1,9 @@
+:_content-type: ASSEMBLY
+[id="installing-openstack-load-balancing"]
+= Load balancing deployments on OpenStack
+include::ROOT:partial$common-attributes.adoc[]
+:context: installing-openstack-load-balancing
+
+toc::[]
+
+include::ROOT:partial$installation-osp-balancing-external-loads.adoc[leveloffset=+1]

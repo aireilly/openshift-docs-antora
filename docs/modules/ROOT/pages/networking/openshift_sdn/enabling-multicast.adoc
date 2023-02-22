@@ -1,0 +1,15 @@
+:_content-type: ASSEMBLY
+[id="enabling-multicast"]
+= Enabling multicast for a project
+include::ROOT:partial$common-attributes.adoc[]
+
+ifdef::openshift-dedicated,openshift-rosa[]
+include::ROOT:partial$attributes-openshift-dedicated.adoc[]
+endif::[]
+
+:context: openshift-sdn-enabling-multicast
+
+toc::[]
+
+include::ROOT:partial$nw-about-multicast.adoc[leveloffset=+1]
+include::ROOT:partial$nw-enabling-multicast.adoc[leveloffset=+1]

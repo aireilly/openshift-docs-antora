@@ -1,0 +1,23 @@
+:_content-type: ASSEMBLY
+[id="configuring-internal-oauth"]
+= Configuring the internal OAuth server
+include::ROOT:partial$common-attributes.adoc[]
+:context: configuring-internal-oauth
+
+toc::[]
+
+include::ROOT:partial$oauth-server-overview.adoc[leveloffset=+1]
+
+include::ROOT:partial$oauth-internal-tokens.adoc[leveloffset=+1]
+
+include::ROOT:partial$oauth-internal-options.adoc[leveloffset=+1]
+
+include::ROOT:partial$oauth-configuring-internal-oauth.adoc[leveloffset=+1]
+
+include::ROOT:partial$oauth-configuring-token-inactivity-timeout.adoc[leveloffset=+1]
+
+include::ROOT:partial$oauth-customizing-the-oauth-server-URL.adoc[leveloffset=+1]
+
+include::ROOT:partial$oauth-server-metadata.adoc[leveloffset=+1]
+
+include::ROOT:partial$oauth-troubleshooting-api-events.adoc[leveloffset=+1]

@@ -1,0 +1,12 @@
+:_content-type: ASSEMBLY
+[id="virt-uefi-mode-for-vms"]
+= Using UEFI mode for virtual machines
+include::ROOT:partial$common-attributes.adoc[]
+:context: virt-uefi-mode-for-vms
+
+toc::[]
+
+You can boot a virtual machine (VM) in Unified Extensible Firmware Interface (UEFI) mode.
+
+include::ROOT:partial$virt-about-uefi-mode-for-vms.adoc[leveloffset=+1]
+include::ROOT:partial$virt-booting-vms-uefi-mode.adoc[leveloffset=+1]

@@ -1,0 +1,16 @@
+:_content-type: ASSEMBLY
+[id="verifying-node-health"]
+= Verifying node health
+include::ROOT:partial$common-attributes.adoc[]
+:context: verifying-node-health
+
+toc::[]
+
+// Reviewing node status, resource usage, and configuration
+include::ROOT:partial$reviewing-node-status-usage-and-configuration.adoc[leveloffset=+1]
+
+// Querying the kubelet's status on a node
+include::ROOT:partial$querying-kubelet-status-on-a-node.adoc[leveloffset=+1]
+
+// Querying node journal logs
+include::ROOT:partial$querying-cluster-node-journal-logs.adoc[leveloffset=+1]

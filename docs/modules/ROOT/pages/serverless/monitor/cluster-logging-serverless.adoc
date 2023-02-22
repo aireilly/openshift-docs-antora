@@ -1,0 +1,13 @@
+:_content-type: ASSEMBLY
+include::ROOT:partial$common-attributes.adoc[]
+[id="cluster-logging-serverless"]
+= Using OpenShift Logging with {ServerlessProductName}
+:context: cluster-logging-serverless
+
+toc::[]
+
+include::ROOT:partial$cluster-logging-about.adoc[leveloffset=+1]
+include::ROOT:partial$cluster-logging-deploying-about.adoc[leveloffset=+1]
+// serverless specific
+include::ROOT:partial$serverless-using-cluster-logging-find-logs-knative-serving-components.adoc[leveloffset=+1]
+include::ROOT:partial$serverless-using-cluster-logging-find-logs-services-deployed.adoc[leveloffset=+1]

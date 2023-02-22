@@ -1,0 +1,13 @@
+:_content-type: ASSEMBLY
+[id="uninstalling-cluster-aws"]
+= Uninstalling a cluster on AWS
+include::ROOT:partial$common-attributes.adoc[]
+:context: uninstall-cluster-aws
+
+toc::[]
+
+You can remove a cluster that you deployed to Amazon Web Services (AWS).
+
+include::ROOT:partial$installation-uninstall-clouds.adoc[leveloffset=+1]
+
+include::ROOT:partial$cco-ccoctl-deleting-sts-resources.adoc[leveloffset=+1]

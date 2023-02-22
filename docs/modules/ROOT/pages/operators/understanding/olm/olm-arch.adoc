@@ -1,0 +1,14 @@
+:_content-type: ASSEMBLY
+[id="olm-arch"]
+= Operator Lifecycle Manager architecture
+include::ROOT:partial$common-attributes.adoc[]
+:context: olm-arch
+
+toc::[]
+
+This guide outlines the component architecture of Operator Lifecycle Manager (OLM) in {product-title}.
+
+include::ROOT:partial$olm-architecture.adoc[leveloffset=+1]
+include::ROOT:partial$olm-arch-olm-operator.adoc[leveloffset=+1]
+include::ROOT:partial$olm-arch-catalog-operator.adoc[leveloffset=+1]
+include::ROOT:partial$olm-arch-catalog-registry.adoc[leveloffset=+1]

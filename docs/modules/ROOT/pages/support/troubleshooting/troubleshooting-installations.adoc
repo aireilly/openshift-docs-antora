@@ -1,0 +1,53 @@
+:_content-type: ASSEMBLY
+[id="troubleshooting-installations"]
+= Troubleshooting installations
+include::ROOT:partial$common-attributes.adoc[]
+:context: troubleshooting-installations
+
+toc::[]
+
+// Determining where installation issues occur
+include::ROOT:partial$determining-where-installation-issues-occur.adoc[leveloffset=+1]
+
+// User-provisioned infrastructure installation considerations
+include::ROOT:partial$upi-installation-considerations.adoc[leveloffset=+1]
+
+// Checking load balancer configuration before {product-title} installation
+include::ROOT:partial$checking-load-balancer-configuration.adoc[leveloffset=+1]
+
+// Specifying {product-title} installer log levels
+include::ROOT:partial$specifying-openshift-installer-log-levels.adoc[leveloffset=+1]
+
+// Troubleshooting `openshift-install` command issues
+include::ROOT:partial$troubleshooting-openshift-install-command-issues.adoc[leveloffset=+1]
+
+// Monitoring installation progress
+include::ROOT:partial$monitoring-installation-progress.adoc[leveloffset=+1]
+
+// Gathering bootstrap node diagnostic data
+include::ROOT:partial$gathering-bootstrap-diagnostic-data.adoc[leveloffset=+1]
+
+// Investigating control plane node installation issues
+include::ROOT:partial$investigating-master-node-installation-issues.adoc[leveloffset=+1]
+
+// Investigating etcd installation issues
+include::ROOT:partial$investigating-etcd-installation-issues.adoc[leveloffset=+1]
+
+// Investigating control plane node kubelet and API server issues
+include::ROOT:partial$investigating-kubelet-api-installation-issues.adoc[leveloffset=+1]
+
+// Investigating worker node installation issues
+include::ROOT:partial$investigating-worker-node-installation-issues.adoc[leveloffset=+1]
+
+// Querying Operator status after installation
+include::ROOT:partial$querying-operator-status-after-installation.adoc[leveloffset=+1]
+
+// Gathering logs from a failed installation
+include::ROOT:partial$installation-bootstrap-gather.adoc[leveloffset=+1]
+
+[role="_additional-resources"]
+== Additional resources
+
+* See xref:architecture/architecture-installation.adoc#installation-process_architecture-installation[Installation process] for more details on {product-title} installation types and process.
+
+// TODO: xref to UPI recommendations for respective versions, with ifdefs.

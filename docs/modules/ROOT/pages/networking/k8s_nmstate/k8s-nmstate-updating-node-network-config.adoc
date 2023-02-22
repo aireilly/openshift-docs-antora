@@ -1,0 +1,40 @@
+:_content-type: ASSEMBLY
+[id="k8s-nmstate-updating-node-network-config"]
+= Updating node network configuration
+include::ROOT:partial$common-attributes.adoc[]
+:VirtProductName: OpenShift Container Platform
+:context: k8s_nmstate-updating-node-network-config
+
+toc::[]
+
+You can update the node network configuration, such as adding or removing interfaces from nodes, by applying `NodeNetworkConfigurationPolicy` manifests to the cluster.
+
+include::ROOT:partial$virt-about-nmstate.adoc[leveloffset=+1]
+
+include::ROOT:partial$virt-creating-interface-on-nodes.adoc[leveloffset=+1]
+
+[discrete]
+[role="_additional-resources"]
+== Additional resources
+* xref:networking/k8s_nmstate/k8s-nmstate-updating-node-network-config.adoc#virt-example-nmstate-multiple-interfaces_{context}[Example for creating multiple interfaces in the same policy]
+* xref:networking/k8s_nmstate/k8s-nmstate-updating-node-network-config.adoc#virt-example-nmstate-IP-management_{context}[Examples of different IP management methods in policies]
+
+include::ROOT:partial$virt-confirming-policy-updates-on-nodes.adoc[leveloffset=+1]
+
+include::ROOT:partial$virt-removing-interface-from-nodes.adoc[leveloffset=+1]
+
+[id="virt-nmstate-example-policy-configurations"]
+== Example policy configurations for different interfaces
+
+include::ROOT:partial$virt-example-bridge-nncp.adoc[leveloffset=+2]
+
+include::ROOT:partial$virt-example-vlan-nncp.adoc[leveloffset=+2]
+
+include::ROOT:partial$virt-example-bond-nncp.adoc[leveloffset=+2]
+
+include::ROOT:partial$virt-example-ethernet-nncp.adoc[leveloffset=+2]
+
+include::ROOT:partial$virt-example-nmstate-multiple-interfaces.adoc[leveloffset=+2]
+
+// Dropping offset by one again
+include::ROOT:partial$virt-example-nmstate-IP-management.adoc[leveloffset=+1]

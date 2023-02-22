@@ -1,0 +1,16 @@
+:_content-type: ASSEMBLY
+[id="encrypting-etcd"]
+= Encrypting etcd data
+include::ROOT:partial$common-attributes.adoc[]
+:context: encrypting-etcd
+
+toc::[]
+
+// About etcd encryption
+include::ROOT:partial$about-etcd-encryption.adoc[leveloffset=+1]
+
+// Enabling etcd encryption
+include::ROOT:partial$enabling-etcd-encryption.adoc[leveloffset=+1]
+
+// Disabling etcd encryption
+include::ROOT:partial$disabling-etcd-encryption.adoc[leveloffset=+1]

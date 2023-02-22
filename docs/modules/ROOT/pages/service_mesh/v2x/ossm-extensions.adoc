@@ -1,0 +1,32 @@
+:_content-type: ASSEMBLY
+[id="ossm-extensions"]
+= Extensions
+include::ROOT:partial$common-attributes.adoc[]
+:context: ossm-extensions
+
+toc::[]
+
+You can use WebAssembly extensions to add new features directly into the {SMProductName} proxies. This lets you move even more common functionality out of your applications, and implement them in a single language that compiles to WebAssembly bytecode.
+
+[NOTE]
+====
+WebAssembly extensions are not supported on IBM Z and IBM Power Systems.
+====
+
+include::ROOT:partial$ossm-extensions-overview.adoc[leveloffset=+1]
+
+include::ROOT:partial$ossm-extensions-wasmplugin-format.adoc[leveloffset=+1]
+
+include::ROOT:partial$ossm-extensions-ref-wasmplugin.adoc[leveloffset=+1]
+
+include::ROOT:partial$ossm-extensions-wasmplugin-deploy.adoc[leveloffset=+2]
+
+include::ROOT:partial$ossm-extensions-smextension-format.adoc[leveloffset=+1]
+
+include::ROOT:partial$ossm-extensions-ref-smextension.adoc[leveloffset=+1]
+
+include::ROOT:partial$ossm-extensions-smextension-deploy.adoc[leveloffset=+2]
+
+include::ROOT:partial$ossm-extensions-migration-overview.adoc[leveloffset=+1]
+
+include::ROOT:partial$ossm-extensions-migrating-to-wasmplugin.adoc[leveloffset=+2]

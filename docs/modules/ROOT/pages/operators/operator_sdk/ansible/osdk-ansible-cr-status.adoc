@@ -1,0 +1,10 @@
+:_content-type: ASSEMBLY
+[id="osdk-ansible-cr-status"]
+= Custom resource status management
+include::ROOT:partial$common-attributes.adoc[]
+:context: osdk-ansible-cr-mgmt
+
+toc::[]
+
+include::ROOT:partial$osdk-ansible-cr-status-about.adoc[leveloffset=+1]
+include::ROOT:partial$osdk-ansible-cr-status-manual.adoc[leveloffset=+1]

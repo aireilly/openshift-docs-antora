@@ -1,0 +1,25 @@
+:_content-type: ASSEMBLY
+[id="expanding-persistent-volumes"]
+= Expanding persistent volumes
+include::ROOT:partial$common-attributes.adoc[]
+:context: expanding-persistent-volumes
+
+toc::[]
+
+ifdef::openshift-enterprise,openshift-webscale,openshift-origin[]
+include::ROOT:partial$storage-expanding-add-volume-expansion.adoc[leveloffset=+1]
+
+include::ROOT:partial$storage-expanding-csi-volumes.adoc[leveloffset=+1]
+
+:FeatureName: Expanding CSI volumes
+
+include::ROOT:partial$technology-preview.adoc[leveloffset=+1]
+
+include::ROOT:partial$storage-expanding-flexvolume.adoc[leveloffset=+1]
+
+include::ROOT:partial$storage-expanding-local-volumes.adoc[leveloffset=+1]
+
+include::ROOT:partial$storage-expanding-filesystem-pvc.adoc[leveloffset=+1]
+
+include::ROOT:partial$storage-expanding-recovering-failure.adoc[leveloffset=+1]
+endif::openshift-enterprise,openshift-webscale,openshift-origin[]

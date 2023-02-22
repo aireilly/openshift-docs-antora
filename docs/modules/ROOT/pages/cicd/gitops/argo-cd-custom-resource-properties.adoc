@@ -1,0 +1,15 @@
+:_content-type: ASSEMBLY
+[id="argo-cd-custom-resource-properties"]
+= Argo CD Operator
+include::ROOT:partial$common-attributes.adoc[]
+:context: argo-cd-custom-resource-properties
+
+toc::[]
+
+[role="_abstract"]
+The `ArgoCD` custom resource is a Kubernetes Custom Resource (CRD) that describes the desired state for a given Argo CD cluster that allows you to configure the components which make up an Argo CD cluster.
+
+include::ROOT:partial$argo-cd-command-line.adoc[leveloffset=+1]
+include::ROOT:partial$gitops-argo-cd-properties.adoc[leveloffset=+1]
+include::ROOT:partial$gitops-repo-server-properties.adoc[leveloffset=+1]
+include::ROOT:partial$gitops-argo-cd-notification.adoc[leveloffset=+1]

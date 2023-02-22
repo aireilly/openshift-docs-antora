@@ -1,0 +1,10 @@
+:_content-type: ASSEMBLY
+[id="dedicated-networking"]
+= Neworking
+include::ROOT:partial$common-attributes.adoc[]
+:context: access
+
+toc::[]
+
+include::ROOT:partial$dedicated-configuring-your-application-routes.adoc[leveloffset=+1]
+include::ROOT:partial$dedicated-exposing-TCP-services.adoc[leveloffset=+1]

@@ -1,0 +1,18 @@
+:_content-type: ASSEMBLY
+[id="getting-started-with-openshift-gitops"]
+= Installing OpenShift GitOps
+include::ROOT:partial$common-attributes.adoc[]
+:context: installing-openshift-gitops
+
+toc::[]
+
+[role="_abstract"]
+{gitops-title} uses Argo CD to manage specific cluster-scoped resources, including cluster Operators, optional Operator Lifecycle Manager (OLM) Operators, and user management.
+
+This guide explains how to install the {gitops-title} Operator to an {product-title} cluster and log in to the Argo CD instance.
+
+include::ROOT:partial$installing-gitops-operator-in-web-console.adoc[leveloffset=+1]
+
+include::ROOT:partial$installing-gitops-operator-using-cli.adoc[leveloffset=+1]
+
+include::ROOT:partial$logging-in-to-the-argo-cd-instance-by-using-the-argo-cd-admin-account.adoc[leveloffset=+1]

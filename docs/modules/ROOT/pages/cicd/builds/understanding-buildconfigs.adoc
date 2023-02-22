@@ -1,0 +1,11 @@
+:_content-type: ASSEMBLY
+[id="understanding-buildconfigs"]
+= Understanding build configurations
+include::ROOT:partial$common-attributes.adoc[]
+:context: understanding-builds
+
+toc::[]
+
+The following sections define the concept of a build, build configuration, and outline the primary build strategies available.
+
+include::ROOT:partial$builds-buildconfig.adoc[leveloffset=+1]

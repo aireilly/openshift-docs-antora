@@ -1,0 +1,11 @@
+:_content-type: ASSEMBLY
+[id="deleting-network-policy"]
+= Deleting a network policy
+include::ROOT:partial$common-attributes.adoc[]
+:context: deleting-network-policy
+
+toc::[]
+
+As a user with the `admin` role, you can delete a network policy from a namespace.
+
+include::ROOT:partial$nw-networkpolicy-delete.adoc[leveloffset=+1]

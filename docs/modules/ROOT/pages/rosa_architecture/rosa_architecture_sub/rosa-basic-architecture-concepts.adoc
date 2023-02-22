@@ -1,0 +1,12 @@
+:_content-type: ASSEMBLY
+[id="rosa-basic-architecture-concepts"]
+= Architecture concepts
+include::ROOT:partial$attributes-openshift-dedicated.adoc[]
+:context: rosa-basic-architecture-concepts
+toc::[]
+
+Learn about OpenShift and container basic concepts used in {product-title} architecture.
+
+include::ROOT:partial$rosa-openshift-concepts.adoc[leveloffset=+1]
+include::ROOT:partial$rosa-kubernetes-concept.adoc[leveloffset=+1]
+include::ROOT:partial$rosa-containers-concept.adoc[leveloffset=+1]

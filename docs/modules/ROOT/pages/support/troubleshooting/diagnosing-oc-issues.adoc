@@ -1,0 +1,13 @@
+:_content-type: ASSEMBLY
+[id="diagnosing-oc-issues"]
+= Diagnosing OpenShift CLI (`oc`) issues
+include::ROOT:partial$common-attributes.adoc[]
+:context: diagnosing-oc-issues
+
+toc::[]
+
+// Understanding OpenShift CLI (`oc`) log levels
+include::ROOT:partial$understanding-oc-log-levels.adoc[leveloffset=+1]
+
+// Specifying OpenShift CLI (`oc`) log levels
+include::ROOT:partial$specifying-oc-log-levels.adoc[leveloffset=+1]

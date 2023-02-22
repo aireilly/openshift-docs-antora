@@ -1,0 +1,13 @@
+:_content-type: ASSEMBLY
+[id="impersonating-system-admin"]
+= Impersonating the system:admin user
+include::ROOT:partial$common-attributes.adoc[]
+:context: impersonating-system-admin
+
+toc::[]
+
+include::ROOT:partial$authentication-api-impersonation.adoc[leveloffset=+1]
+
+include::ROOT:partial$impersonation-system-admin-user.adoc[leveloffset=+1]
+
+include::ROOT:partial$impersonation-system-admin-group.adoc[leveloffset=+1]

@@ -1,0 +1,26 @@
+:_content-type: ASSEMBLY
+[id="getting-support"]
+= Getting support
+include::ROOT:partial$common-attributes.adoc[]
+ifdef::openshift-dedicated[]
+include::ROOT:partial$attributes-openshift-dedicated.adoc[]
+endif::[]
+:context: getting-support
+
+toc::[]
+
+// Getting support
+ifdef::openshift-enterprise,openshift-webscale,openshift-dedicated,openshift-origin[]
+
+include::ROOT:partial$support.adoc[leveloffset=+1]
+include::ROOT:partial$support-knowledgebase-about.adoc[leveloffset=+1]
+include::ROOT:partial$support-knowledgebase-search.adoc[leveloffset=+1]
+include::ROOT:partial$support-submitting-a-case.adoc[leveloffset=+1]
+
+endif::openshift-enterprise,openshift-webscale,openshift-dedicated,openshift-origin[]
+
+[id="getting-support-additional-resources"]
+[role="_additional-resources"]
+== Additional resources
+
+* For details about identifying issues with your cluster, see xref:support/remote_health_monitoring/using-insights-to-identify-issues-with-your-cluster.adoc#using-insights-to-identify-issues-with-your-cluster[Using Insights to identify issues with your cluster].

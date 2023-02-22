@@ -1,0 +1,13 @@
+:_content-type: ASSEMBLY
+[id="creating-project-other-user"]
+= Creating a project as another user
+include::ROOT:partial$common-attributes.adoc[]
+:context: creating-project-other-user
+
+toc::[]
+
+Impersonation allows you to create a project as a different user.
+
+include::ROOT:partial$authentication-api-impersonation.adoc[leveloffset=+1]
+
+include::ROOT:partial$impersonation-project-creation.adoc[leveloffset=+1]

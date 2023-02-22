@@ -1,0 +1,9 @@
+:_content-type: ASSEMBLY
+[id="tokens-scoping"]
+= Scoping tokens
+include::ROOT:partial$common-attributes.adoc[]
+:context: configuring-internal-oauth
+
+toc::[]
+
+include::ROOT:partial$tokens-scoping-about.adoc[leveloffset=+1]

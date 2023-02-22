@@ -1,0 +1,14 @@
+:_content-type: ASSEMBLY
+[id="policy-process-security"]
+= Understanding process and security for {product-title}
+include::ROOT:partial$attributes-openshift-dedicated.adoc[]
+:context: policy-process-security
+
+toc::[]
+
+
+include::ROOT:partial$policy-incident.adoc[leveloffset=+1]
+include::ROOT:partial$policy-change-management.adoc[leveloffset=+1]
+include::ROOT:partial$policy-identity-access-management.adoc[leveloffset=+1]
+include::ROOT:partial$policy-security-regulation-compliance.adoc[leveloffset=+1]
+include::ROOT:partial$policy-disaster-recovery.adoc[leveloffset=+1]
