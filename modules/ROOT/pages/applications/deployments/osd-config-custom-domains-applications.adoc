@@ -1,9 +1,0 @@
-:_content-type: ASSEMBLY
-[id="osd-config-custom-domains-applications"]
-= Configuring custom domains for applications
-include::ROOT:partial$attributes-openshift-dedicated.adoc[]
-:context: osd-config-custom-domains-applications
-
-toc::[]
-
-include::ROOT:partial$osd-applications-config-custom-domains.adoc[leveloffset=+1]

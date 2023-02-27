@@ -1,9 +1,0 @@
-:_content-type: ASSEMBLY
-[id="olm-understanding-metrics"]
-= Operator Lifecycle Manager metrics
-include::ROOT:partial$common-attributes.adoc[]
-:context: olm-understanding-metrics
-
-toc::[]
-
-include::ROOT:partial$olm-metrics.adoc[leveloffset=+1]

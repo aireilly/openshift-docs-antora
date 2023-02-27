@@ -1,9 +1,0 @@
-:_content-type: ASSEMBLY
-include::ROOT:partial$attributes-openshift-dedicated.adoc[]
-[id="rosa-troubleshooting-installations"]
-= Troubleshooting installations
-:context: rosa-troubleshooting-installations
-
-toc::[]
-
-include::ROOT:partial$rosa-troubleshooting-installing.adoc[leveloffset=+1]
